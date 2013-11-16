@@ -1,0 +1,9 @@
+bluetooth_le.c:	le->channel_idx = (le->channel_idx + le->hop_increment) % 37;
+bluetooth_le.c:	return btle_channel_index_to_phys(le->channel_idx);
+bluetooth_le.lst:  29:bluetooth_le.c **** 	le->channel_idx = (le->channel_idx + le->hop_increment) % 37;
+bluetooth_le.lst:  30:bluetooth_le.c **** 	return btle_channel_index_to_phys(le->channel_idx);
+bluetooth_le.lst:  29:bluetooth_le.c **** 	le->channel_idx = (le->channel_idx + le->hop_increment) % 37;
+bluetooth_rxtx.lss:	le->channel_idx = (le->channel_idx + le->hop_increment) % 37;
+bluetooth_rxtx.lss:	le->channel_idx = (le->channel_idx + le->hop_increment) % 37;
+bluetooth_rxtx.lss:	le->channel_idx = (le->channel_idx + le->hop_increment) % 37;
+bluetooth_rxtx.lss:	return btle_channel_index_to_phys(le->channel_idx);
