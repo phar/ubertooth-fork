@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C6EBF39E-9B41-4600-8F7B-59FD46DBFCEB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ubertooth</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DE937C88-C05C-41E3-B98F-93DD8EB2FD04</key>
+		<string>https://github.com/phar/ubertooth-fork.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ubertooth/ubertooth.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DE937C88-C05C-41E3-B98F-93DD8EB2FD04</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/phar/ubertooth-fork.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE937C88-C05C-41E3-B98F-93DD8EB2FD04</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE937C88-C05C-41E3-B98F-93DD8EB2FD04</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ubertooth-fork</string>
+		</dict>
+	</array>
+</dict>
+</plist>

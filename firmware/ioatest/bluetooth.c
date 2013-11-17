@@ -19,7 +19,7 @@
  * Boston, MA 02110-1301, USA.
  */
 
-#include "bluetooth.h"
+#include "bluetooth-ioa.h"
 
 /* these values for hop() can be precalculated (at leastin part) */
 u8 a1, b, c1, e;
@@ -187,3 +187,283 @@ int find_access_code(u8 *idle_rxbuf)
 	}
 	return -1;
 }
+
+
+
+/* Bluetooth packet monitoring */
+void bt_stream_rx()
+{
+	u8 *tmp = NULL;
+	u8 hold;
+	int8_t rssi;
+	int i;
+	int8_t rssi_at_trigger;
+    
+	mode = MODE_RX_SYMBOLS;
+    
+	RXLED_CLR;
+    
+	queue_init();
+	dio_ssp_init();
+	dma_init();
+	dio_ssp_start();
+	cc2400_rx();
+    
+	cs_trigger_enable();
+    
+	hold = 0;
+    
+	while (rx_pkts && (requested_mode == MODE_RX_SYMBOLS)) {
+        
+		/* If timer says time to hop, do it. TODO - set
+		 * per-channel carrier sense threshold. Set by
+		 * firmware or host. TODO - if hop happened, clear
+		 * hold. */
+		if (do_hop)
+			hop();
+        
+		RXLED_CLR;
+        
+		/* Wait for DMA transfer. TODO - need more work on
+		 * RSSI. Should send RSSI indications to host even
+		 * when not transferring data. That would also keep
+		 * the USB stream going. This loop runs 50-80 times
+		 * while waiting for DMA, but RSSI sampling does not
+		 * cover all the symbols in a DMA transfer. Can not do
+		 * RSSI sampling in CS interrupt, but could log time
+		 * at multiple trigger points there. The MAX() below
+		 * helps with statistics in the case that cs_trigger
+		 * happened before the loop started. */
+		rssi_reset();
+		rssi_at_trigger = INT8_MIN;
+		while ((rx_tc == 0) && (rx_err == 0)) {
+			rssi = (int8_t)(cc2400_get(RSSI) >> 8);
+			if (cs_trigger && (rssi_at_trigger == INT8_MIN)) {
+				rssi = MAX(rssi,(cs_threshold_cur+54));
+				rssi_at_trigger = rssi;
+			}
+			rssi_add(rssi);
+		}
+        
+		/* Keep buffer swapping in sync with DMA. */
+		if (rx_tc % 2) {
+			tmp = active_rxbuf;
+			active_rxbuf = idle_rxbuf;
+			idle_rxbuf = tmp;
+		}
+        
+		if (rx_err) {
+			status |= DMA_ERROR;
+		}
+        
+		/* No DMA transfer? */
+		if (!rx_tc)
+			goto rx_continue;
+        
+		/* Missed a DMA trasfer? */
+		if (rx_tc > 1)
+			status |= DMA_OVERFLOW;
+        
+		rssi_iir_update();
+        
+		/* Set squelch hold if there was either a CS trigger, squelch
+		 * is disabled, or if the current rssi_max is above the same
+		 * threshold. Currently, this is redundant, but allows for
+		 * per-channel or other rssi triggers in the future. */
+		if (cs_trigger || cs_no_squelch) {
+			status |= CS_TRIGGER;
+			hold = CS_HOLD_TIME;
+			cs_trigger = 0;
+		}
+        
+		if (rssi_max >= (cs_threshold_cur + 54)) {
+			status |= RSSI_TRIGGER;
+			hold = CS_HOLD_TIME;
+		}
+        
+		/* Send a packet once in a while (6.25 Hz) to keep
+		 * host USB reads from timing out. */
+		if (keepalive_trigger) {
+			if (hold == 0)
+				hold = 1;
+			keepalive_trigger = 0;
+		}
+        
+		/* Hold expired? Ignore data. */
+		if (hold == 0) {
+			goto rx_continue;
+		}
+		hold--;
+        
+		/* Queue data from DMA buffer. */
+		switch (hop_mode) {
+			case HOP_BLUETOOTH:
+				//if (find_access_code(idle_rxbuf) >= 0)
+                if (enqueue(idle_rxbuf)) {
+                    RXLED_SET;
+                    --rx_pkts;
+                }
+				break;
+                
+			case HOP_BTLE:
+				if (btle_find_access_address(idle_rxbuf))
+                    if (enqueue(idle_rxbuf)) {
+                        RXLED_SET;
+                        --rx_pkts;
+                    }
+				break;
+                
+			default:
+				if (enqueue(idle_rxbuf)) {
+                    RXLED_SET;
+                    --rx_pkts;
+				}
+		}
+        
+	rx_continue:
+		handle_usb(clkn);
+		rx_tc = 0;
+		rx_err = 0;
+	}
+    
+	/* This call is a nop so far. Since bt_rx_stream() starts the
+	 * stream, it makes sense that it would stop it. TODO - how
+	 * should setup/teardown be handled? Should every new mode be
+	 * starting from scratch? */
+	dio_ssp_stop();
+	cs_trigger_disable();
+	rx_pkts = 0; // Already 0, or requested mode changed
+}
+
+
+/* Bluetooth packet monitoring */
+void bt_follow()
+{
+	u8 *tmp = NULL;
+	u8 hold;
+	int8_t rssi;
+	int i;
+	int16_t packet_offset;
+	int8_t rssi_at_trigger;
+    
+	mode = MODE_BT_FOLLOW;
+    
+	RXLED_CLR;
+    
+	queue_init();
+	dio_ssp_init();
+	dma_init();
+	dio_ssp_start();
+	cc2400_rx_sync((syncword >> 32) & 0xffffffff);
+    
+	cs_trigger_enable();
+    
+	hold = 0;
+    
+	while (requested_mode == MODE_BT_FOLLOW) {
+        
+		/* If timer says time to hop, do it. TODO - set
+		 * per-channel carrier sense threshold. Set by
+		 * firmware or host. TODO - if hop happened, clear
+		 * hold. */
+		if (do_hop)
+			hop();
+        
+		RXLED_CLR;
+        
+		/* Wait for DMA transfer. TODO - need more work on
+		 * RSSI. Should send RSSI indications to host even
+		 * when not transferring data. That would also keep
+		 * the USB stream going. This loop runs 50-80 times
+		 * while waiting for DMA, but RSSI sampling does not
+		 * cover all the symbols in a DMA transfer. Can not do
+		 * RSSI sampling in CS interrupt, but could log time
+		 * at multiple trigger points there. The MAX() below
+		 * helps with statistics in the case that cs_trigger
+		 * happened before the loop started. */
+		rssi_reset();
+		rssi_at_trigger = INT8_MIN;
+		while ((rx_tc == 0) && (rx_err == 0))
+		{
+			rssi = (int8_t)(cc2400_get(RSSI) >> 8);
+			if (cs_trigger && (rssi_at_trigger == INT8_MIN)) {
+				rssi = MAX(rssi,(cs_threshold_cur+54));
+				rssi_at_trigger = rssi;
+			}
+			rssi_add(rssi);
+		}
+        
+		/* Keep buffer swapping in sync with DMA. */
+		if (rx_tc % 2) {
+			tmp = active_rxbuf;
+			active_rxbuf = idle_rxbuf;
+			idle_rxbuf = tmp;
+		}
+        
+		if (rx_err) {
+			status |= DMA_ERROR;
+		}
+        
+		/* No DMA transfer? */
+		if (!rx_tc)
+			goto rx_continue;
+        
+		/* Missed a DMA trasfer? */
+		if (rx_tc > 1)
+			status |= DMA_OVERFLOW;
+        
+		rssi_iir_update();
+        
+		/* Set squelch hold if there was either a CS trigger, squelch
+		 * is disabled, or if the current rssi_max is above the same
+		 * threshold. Currently, this is redundant, but allows for
+		 * per-channel or other rssi triggers in the future. */
+		if (cs_trigger || cs_no_squelch) {
+			status |= CS_TRIGGER;
+			hold = CS_HOLD_TIME;
+			cs_trigger = 0;
+		}
+        
+		if (rssi_max >= (cs_threshold_cur + 54)) {
+			status |= RSSI_TRIGGER;
+			hold = CS_HOLD_TIME;
+		}
+        
+		/* Send a packet once in a while (6.25 Hz) to keep
+		 * host USB reads from timing out. */
+		if (keepalive_trigger) {
+			if (hold == 0)
+				hold = 1;
+			keepalive_trigger = 0;
+		}
+        
+		/* Hold expired? Ignore data. */
+		if (hold == 0) {
+			goto rx_continue;
+		}
+		hold--;
+        
+		/* Queue data from DMA buffer. */
+		//if ((packet_offset = find_access_code(idle_rxbuf)) >= 0) {
+		//	clock_trim = 20 - packet_offset;
+        if (enqueue(idle_rxbuf)) {
+            RXLED_SET;
+            --rx_pkts;
+        }
+		//}
+        
+	rx_continue:
+		handle_usb(clkn);
+		rx_tc = 0;
+		rx_err = 0;
+	}
+    
+	/* This call is a nop so far. Since bt_rx_stream() starts the
+	 * stream, it makes sense that it would stop it. TODO - how
+	 * should setup/teardown be handled? Should every new mode be
+	 * starting from scratch? */
+	dio_ssp_stop();
+	cs_trigger_disable();
+}
+
+

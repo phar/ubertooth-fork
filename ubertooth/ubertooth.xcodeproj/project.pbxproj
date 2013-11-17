@@ -1,0 +1,2528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		67AA166A18382D4500C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA166B18382D4500C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA166C18382D4500C3DBB9 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		67AA166D18382D4500C3DBB9 /* Rules */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rules; sourceTree = "<group>"; };
+		67AA166E18382D4500C3DBB9 /* config.yaml */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.yaml; sourceTree = "<group>"; };
+		67AA167118382D4500C3DBB9 /* develop.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = develop.html; sourceTree = "<group>"; };
+		67AA167318382D4500C3DBB9 /* build.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = build.html; sourceTree = "<group>"; };
+		67AA167418382D4500C3DBB9 /* one.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = one.html; sourceTree = "<group>"; };
+		67AA167518382D4500C3DBB9 /* program.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = program.html; sourceTree = "<group>"; };
+		67AA167618382D4500C3DBB9 /* zero.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = zero.html; sourceTree = "<group>"; };
+		67AA167818382D4500C3DBB9 /* develop.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = develop.html; sourceTree = "<group>"; };
+		67AA167A18382D4500C3DBB9 /* kismet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kismet.png; sourceTree = "<group>"; };
+		67AA167B18382D4500C3DBB9 /* pogoprog-placement.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pogoprog-placement.jpeg"; sourceTree = "<group>"; };
+		67AA167C18382D4500C3DBB9 /* pogoprog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pogoprog.jpeg; sourceTree = "<group>"; };
+		67AA167D18382D4500C3DBB9 /* specan_ui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = specan_ui.png; sourceTree = "<group>"; };
+		67AA167E18382D4500C3DBB9 /* u1_roadmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u1_roadmap.png; sourceTree = "<group>"; };
+		67AA167F18382D4500C3DBB9 /* ubertooth-lap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ubertooth-lap.png"; sourceTree = "<group>"; };
+		67AA168018382D4500C3DBB9 /* ubertooth-one-zero.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ubertooth-one-zero.jpeg"; sourceTree = "<group>"; };
+		67AA168118382D4500C3DBB9 /* ubertooth-one.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ubertooth-one.jpeg"; sourceTree = "<group>"; };
+		67AA168218382D4500C3DBB9 /* ubertooth-zero.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ubertooth-zero.jpeg"; sourceTree = "<group>"; };
+		67AA168318382D4500C3DBB9 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		67AA168418382D4500C3DBB9 /* stylesheet.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = stylesheet.css; sourceTree = "<group>"; };
+		67AA168618382D4500C3DBB9 /* build.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = build.html; sourceTree = "<group>"; };
+		67AA168718382D4500C3DBB9 /* start.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = start.html; sourceTree = "<group>"; };
+		67AA168918382D4500C3DBB9 /* default.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = default.html; sourceTree = "<group>"; };
+		67AA168B18382D4500C3DBB9 /* default.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = default.rb; sourceTree = "<group>"; };
+		67AA168D18382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA168E18382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA169018382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA169118382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA169218382D5F00C3DBB9 /* assembly_test.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = assembly_test.bin; sourceTree = "<group>"; };
+		67AA169318382D5F00C3DBB9 /* assembly_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = assembly_test.c; sourceTree = "<group>"; };
+		67AA169418382D5F00C3DBB9 /* assembly_test.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = assembly_test.d; sourceTree = "<group>"; };
+		67AA169518382D5F00C3DBB9 /* assembly_test.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = assembly_test.dfu; sourceTree = "<group>"; };
+		67AA169618382D5F00C3DBB9 /* assembly_test.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = assembly_test.elf; sourceTree = "<group>"; };
+		67AA169718382D5F00C3DBB9 /* assembly_test.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = assembly_test.hex; sourceTree = "<group>"; };
+		67AA169818382D5F00C3DBB9 /* assembly_test.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = assembly_test.lss; sourceTree = "<group>"; };
+		67AA169918382D5F00C3DBB9 /* assembly_test.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = assembly_test.lst; sourceTree = "<group>"; };
+		67AA169A18382D5F00C3DBB9 /* assembly_test.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = assembly_test.map; sourceTree = "<group>"; };
+		67AA169B18382D5F00C3DBB9 /* assembly_test.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = assembly_test.o; sourceTree = "<group>"; };
+		67AA169C18382D5F00C3DBB9 /* assembly_test.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = assembly_test.srec; sourceTree = "<group>"; };
+		67AA169D18382D5F00C3DBB9 /* assembly_test.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = assembly_test.sym; sourceTree = "<group>"; };
+		67AA169F18382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA16A018382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA16A118382D5F00C3DBB9 /* blinky.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = blinky.bin; sourceTree = "<group>"; };
+		67AA16A218382D5F00C3DBB9 /* blinky.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = blinky.c; sourceTree = "<group>"; };
+		67AA16A318382D5F00C3DBB9 /* blinky.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = blinky.d; sourceTree = "<group>"; };
+		67AA16A418382D5F00C3DBB9 /* blinky.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = blinky.dfu; sourceTree = "<group>"; };
+		67AA16A518382D5F00C3DBB9 /* blinky.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blinky.elf; sourceTree = "<group>"; };
+		67AA16A618382D5F00C3DBB9 /* blinky.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = blinky.hex; sourceTree = "<group>"; };
+		67AA16A718382D5F00C3DBB9 /* blinky.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = blinky.lss; sourceTree = "<group>"; };
+		67AA16A818382D5F00C3DBB9 /* blinky.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = blinky.lst; sourceTree = "<group>"; };
+		67AA16A918382D5F00C3DBB9 /* blinky.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = blinky.map; sourceTree = "<group>"; };
+		67AA16AA18382D5F00C3DBB9 /* blinky.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = blinky.o; sourceTree = "<group>"; };
+		67AA16AB18382D5F00C3DBB9 /* blinky.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = blinky.srec; sourceTree = "<group>"; };
+		67AA16AC18382D5F00C3DBB9 /* blinky.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = blinky.sym; sourceTree = "<group>"; };
+		67AA16AE18382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA16AF18382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA16B018382D5F00C3DBB9 /* bluetooth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bluetooth.c; sourceTree = "<group>"; };
+		67AA16B118382D5F00C3DBB9 /* bluetooth.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = bluetooth.d; sourceTree = "<group>"; };
+		67AA16B218382D5F00C3DBB9 /* bluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bluetooth.h; sourceTree = "<group>"; };
+		67AA16B318382D5F00C3DBB9 /* bluetooth.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth.lst; sourceTree = "<group>"; };
+		67AA16B418382D5F00C3DBB9 /* bluetooth.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bluetooth.o; sourceTree = "<group>"; };
+		67AA16B518382D5F00C3DBB9 /* bluetooth_le.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bluetooth_le.c; sourceTree = "<group>"; };
+		67AA16B618382D5F00C3DBB9 /* bluetooth_le.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = bluetooth_le.d; sourceTree = "<group>"; };
+		67AA16B718382D5F00C3DBB9 /* bluetooth_le.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bluetooth_le.h; sourceTree = "<group>"; };
+		67AA16B818382D5F00C3DBB9 /* bluetooth_le.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_le.lst; sourceTree = "<group>"; };
+		67AA16B918382D5F00C3DBB9 /* bluetooth_le.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bluetooth_le.o; sourceTree = "<group>"; };
+		67AA16BA18382D5F00C3DBB9 /* bluetooth_rxtx.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = bluetooth_rxtx.bin; sourceTree = "<group>"; };
+		67AA16BB18382D5F00C3DBB9 /* bluetooth_rxtx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bluetooth_rxtx.c; sourceTree = "<group>"; };
+		67AA16BC18382D5F00C3DBB9 /* bluetooth_rxtx.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = bluetooth_rxtx.d; sourceTree = "<group>"; };
+		67AA16BD18382D5F00C3DBB9 /* bluetooth_rxtx.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = bluetooth_rxtx.dfu; sourceTree = "<group>"; };
+		67AA16BE18382D5F00C3DBB9 /* bluetooth_rxtx.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bluetooth_rxtx.elf; sourceTree = "<group>"; };
+		67AA16BF18382D5F00C3DBB9 /* bluetooth_rxtx.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.hex; sourceTree = "<group>"; };
+		67AA16C018382D5F00C3DBB9 /* bluetooth_rxtx.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.lss; sourceTree = "<group>"; };
+		67AA16C118382D5F00C3DBB9 /* bluetooth_rxtx.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.lst; sourceTree = "<group>"; };
+		67AA16C218382D5F00C3DBB9 /* bluetooth_rxtx.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.map; sourceTree = "<group>"; };
+		67AA16C318382D5F00C3DBB9 /* bluetooth_rxtx.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bluetooth_rxtx.o; sourceTree = "<group>"; };
+		67AA16C418382D5F00C3DBB9 /* bluetooth_rxtx.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.srec; sourceTree = "<group>"; };
+		67AA16C518382D5F00C3DBB9 /* bluetooth_rxtx.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.sym; sourceTree = "<group>"; };
+		67AA16C618382D5F00C3DBB9 /* cc2400_rangetest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cc2400_rangetest.c; sourceTree = "<group>"; };
+		67AA16C718382D5F00C3DBB9 /* cc2400_rangetest.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = cc2400_rangetest.d; sourceTree = "<group>"; };
+		67AA16C818382D5F00C3DBB9 /* cc2400_rangetest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cc2400_rangetest.h; sourceTree = "<group>"; };
+		67AA16C918382D5F00C3DBB9 /* cc2400_rangetest.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_rangetest.lst; sourceTree = "<group>"; };
+		67AA16CA18382D5F00C3DBB9 /* cc2400_rangetest.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cc2400_rangetest.o; sourceTree = "<group>"; };
+		67AA16CB18382D5F00C3DBB9 /* hop_increment */ = {isa = PBXFileReference; lastKnownFileType = text; path = hop_increment; sourceTree = "<group>"; };
+		67AA16CC18382D5F00C3DBB9 /* ubertooth_usb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ubertooth_usb.c; sourceTree = "<group>"; };
+		67AA16CD18382D5F00C3DBB9 /* ubertooth_usb.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ubertooth_usb.d; sourceTree = "<group>"; };
+		67AA16CE18382D5F00C3DBB9 /* ubertooth_usb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ubertooth_usb.h; sourceTree = "<group>"; };
+		67AA16CF18382D5F00C3DBB9 /* ubertooth_usb.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = ubertooth_usb.lst; sourceTree = "<group>"; };
+		67AA16D018382D5F00C3DBB9 /* ubertooth_usb.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ubertooth_usb.o; sourceTree = "<group>"; };
+		67AA16D218382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA16D318382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA16D418382D5F00C3DBB9 /* bootloader.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = bootloader.bin; sourceTree = "<group>"; };
+		67AA16D518382D5F00C3DBB9 /* bootloader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bootloader.cpp; sourceTree = "<group>"; };
+		67AA16D618382D5F00C3DBB9 /* bootloader.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = bootloader.d; sourceTree = "<group>"; };
+		67AA16D718382D5F00C3DBB9 /* bootloader.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bootloader.elf; sourceTree = "<group>"; };
+		67AA16D818382D5F00C3DBB9 /* bootloader.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootloader.hex; sourceTree = "<group>"; };
+		67AA16D918382D5F00C3DBB9 /* bootloader.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootloader.lss; sourceTree = "<group>"; };
+		67AA16DA18382D5F00C3DBB9 /* bootloader.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootloader.lst; sourceTree = "<group>"; };
+		67AA16DB18382D5F00C3DBB9 /* bootloader.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootloader.map; sourceTree = "<group>"; };
+		67AA16DC18382D5F00C3DBB9 /* bootloader.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bootloader.o; sourceTree = "<group>"; };
+		67AA16DD18382D5F00C3DBB9 /* bootloader.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootloader.srec; sourceTree = "<group>"; };
+		67AA16DE18382D5F00C3DBB9 /* bootloader.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootloader.sym; sourceTree = "<group>"; };
+		67AA16DF18382D5F00C3DBB9 /* dfu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dfu.cpp; sourceTree = "<group>"; };
+		67AA16E018382D5F00C3DBB9 /* dfu.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = dfu.d; sourceTree = "<group>"; };
+		67AA16E118382D5F00C3DBB9 /* dfu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dfu.h; sourceTree = "<group>"; };
+		67AA16E218382D5F00C3DBB9 /* dfu.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = dfu.lst; sourceTree = "<group>"; };
+		67AA16E318382D5F00C3DBB9 /* dfu.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dfu.o; sourceTree = "<group>"; };
+		67AA16E418382D5F00C3DBB9 /* flash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flash.h; sourceTree = "<group>"; };
+		67AA16E518382D5F00C3DBB9 /* iap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iap.cpp; sourceTree = "<group>"; };
+		67AA16E618382D5F00C3DBB9 /* iap.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = iap.d; sourceTree = "<group>"; };
+		67AA16E718382D5F00C3DBB9 /* iap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iap.h; sourceTree = "<group>"; };
+		67AA16E818382D5F00C3DBB9 /* iap.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = iap.lst; sourceTree = "<group>"; };
+		67AA16E918382D5F00C3DBB9 /* iap.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = iap.o; sourceTree = "<group>"; };
+		67AA16EB18382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA16EC18382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA16ED18382D5F00C3DBB9 /* cc2400_test.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = cc2400_test.bin; sourceTree = "<group>"; };
+		67AA16EE18382D5F00C3DBB9 /* cc2400_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cc2400_test.c; sourceTree = "<group>"; };
+		67AA16EF18382D5F00C3DBB9 /* cc2400_test.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = cc2400_test.d; sourceTree = "<group>"; };
+		67AA16F018382D5F00C3DBB9 /* cc2400_test.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = cc2400_test.dfu; sourceTree = "<group>"; };
+		67AA16F118382D5F00C3DBB9 /* cc2400_test.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cc2400_test.elf; sourceTree = "<group>"; };
+		67AA16F218382D5F00C3DBB9 /* cc2400_test.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_test.hex; sourceTree = "<group>"; };
+		67AA16F318382D5F00C3DBB9 /* cc2400_test.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_test.lss; sourceTree = "<group>"; };
+		67AA16F418382D5F00C3DBB9 /* cc2400_test.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_test.lst; sourceTree = "<group>"; };
+		67AA16F518382D5F00C3DBB9 /* cc2400_test.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_test.map; sourceTree = "<group>"; };
+		67AA16F618382D5F00C3DBB9 /* cc2400_test.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cc2400_test.o; sourceTree = "<group>"; };
+		67AA16F718382D5F00C3DBB9 /* cc2400_test.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_test.srec; sourceTree = "<group>"; };
+		67AA16F818382D5F00C3DBB9 /* cc2400_test.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_test.sym; sourceTree = "<group>"; };
+		67AA16FA18382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA16FB18382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA16FC18382D5F00C3DBB9 /* clock_test.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = clock_test.bin; sourceTree = "<group>"; };
+		67AA16FD18382D5F00C3DBB9 /* clock_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = clock_test.c; sourceTree = "<group>"; };
+		67AA16FE18382D5F00C3DBB9 /* clock_test.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = clock_test.d; sourceTree = "<group>"; };
+		67AA16FF18382D5F00C3DBB9 /* clock_test.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = clock_test.dfu; sourceTree = "<group>"; };
+		67AA170018382D5F00C3DBB9 /* clock_test.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = clock_test.elf; sourceTree = "<group>"; };
+		67AA170118382D5F00C3DBB9 /* clock_test.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = clock_test.hex; sourceTree = "<group>"; };
+		67AA170218382D5F00C3DBB9 /* clock_test.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = clock_test.lss; sourceTree = "<group>"; };
+		67AA170318382D5F00C3DBB9 /* clock_test.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = clock_test.lst; sourceTree = "<group>"; };
+		67AA170418382D5F00C3DBB9 /* clock_test.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = clock_test.map; sourceTree = "<group>"; };
+		67AA170518382D5F00C3DBB9 /* clock_test.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = clock_test.o; sourceTree = "<group>"; };
+		67AA170618382D5F00C3DBB9 /* clock_test.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = clock_test.srec; sourceTree = "<group>"; };
+		67AA170718382D5F00C3DBB9 /* clock_test.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = clock_test.sym; sourceTree = "<group>"; };
+		67AA170918382D5F00C3DBB9 /* LPC17xx_Interrupts.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LPC17xx_Interrupts.c; sourceTree = "<group>"; };
+		67AA170A18382D5F00C3DBB9 /* LPC17xx_Interrupts.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = LPC17xx_Interrupts.d; sourceTree = "<group>"; };
+		67AA170B18382D5F00C3DBB9 /* LPC17xx_Interrupts.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = LPC17xx_Interrupts.lst; sourceTree = "<group>"; };
+		67AA170C18382D5F00C3DBB9 /* LPC17xx_Interrupts.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = LPC17xx_Interrupts.o; sourceTree = "<group>"; };
+		67AA170D18382D5F00C3DBB9 /* LPC17xx_Linker_Script_bootloader.ld */ = {isa = PBXFileReference; lastKnownFileType = text; path = LPC17xx_Linker_Script_bootloader.ld; sourceTree = "<group>"; };
+		67AA170E18382D5F00C3DBB9 /* LPC17xx_Linker_Script_with_bootloader.ld */ = {isa = PBXFileReference; lastKnownFileType = text; path = LPC17xx_Linker_Script_with_bootloader.ld; sourceTree = "<group>"; };
+		67AA170F18382D5F00C3DBB9 /* LPC17xx_Linker_Script_without_bootloader.ld */ = {isa = PBXFileReference; lastKnownFileType = text; path = LPC17xx_Linker_Script_without_bootloader.ld; sourceTree = "<group>"; };
+		67AA171018382D5F00C3DBB9 /* LPC17xx_Startup.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LPC17xx_Startup.c; sourceTree = "<group>"; };
+		67AA171118382D5F00C3DBB9 /* LPC17xx_Startup.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = LPC17xx_Startup.d; sourceTree = "<group>"; };
+		67AA171218382D5F00C3DBB9 /* LPC17xx_Startup.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = LPC17xx_Startup.lst; sourceTree = "<group>"; };
+		67AA171318382D5F00C3DBB9 /* LPC17xx_Startup.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = LPC17xx_Startup.o; sourceTree = "<group>"; };
+		67AA171418382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA171518382D5F00C3DBB9 /* cc2400.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cc2400.h; sourceTree = "<group>"; };
+		67AA171618382D5F00C3DBB9 /* lpc17.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lpc17.h; sourceTree = "<group>"; };
+		67AA171818382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA171A18382D5F00C3DBB9 /* debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		67AA171B18382D5F00C3DBB9 /* type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = type.h; sourceTree = "<group>"; };
+		67AA171C18382D5F00C3DBB9 /* usbapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usbapi.h; sourceTree = "<group>"; };
+		67AA171D18382D5F00C3DBB9 /* usbcontrol.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usbcontrol.c; sourceTree = "<group>"; };
+		67AA171E18382D5F00C3DBB9 /* usbcontrol.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = usbcontrol.d; sourceTree = "<group>"; };
+		67AA171F18382D5F00C3DBB9 /* usbcontrol.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = usbcontrol.lst; sourceTree = "<group>"; };
+		67AA172018382D5F00C3DBB9 /* usbcontrol.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = usbcontrol.o; sourceTree = "<group>"; };
+		67AA172118382D5F00C3DBB9 /* usbhw_lpc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usbhw_lpc.c; sourceTree = "<group>"; };
+		67AA172218382D5F00C3DBB9 /* usbhw_lpc.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = usbhw_lpc.d; sourceTree = "<group>"; };
+		67AA172318382D5F00C3DBB9 /* usbhw_lpc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usbhw_lpc.h; sourceTree = "<group>"; };
+		67AA172418382D5F00C3DBB9 /* usbhw_lpc.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = usbhw_lpc.lst; sourceTree = "<group>"; };
+		67AA172518382D5F00C3DBB9 /* usbhw_lpc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = usbhw_lpc.o; sourceTree = "<group>"; };
+		67AA172618382D5F00C3DBB9 /* usbinit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usbinit.c; sourceTree = "<group>"; };
+		67AA172718382D5F00C3DBB9 /* usbinit.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = usbinit.d; sourceTree = "<group>"; };
+		67AA172818382D5F00C3DBB9 /* usbinit.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = usbinit.lst; sourceTree = "<group>"; };
+		67AA172918382D5F00C3DBB9 /* usbinit.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = usbinit.o; sourceTree = "<group>"; };
+		67AA172A18382D5F00C3DBB9 /* usbstdreq.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usbstdreq.c; sourceTree = "<group>"; };
+		67AA172B18382D5F00C3DBB9 /* usbstdreq.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = usbstdreq.d; sourceTree = "<group>"; };
+		67AA172C18382D5F00C3DBB9 /* usbstdreq.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = usbstdreq.lst; sourceTree = "<group>"; };
+		67AA172D18382D5F00C3DBB9 /* usbstdreq.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = usbstdreq.o; sourceTree = "<group>"; };
+		67AA172E18382D5F00C3DBB9 /* usbstruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usbstruct.h; sourceTree = "<group>"; };
+		67AA172F18382D5F00C3DBB9 /* sections.ld */ = {isa = PBXFileReference; lastKnownFileType = text; path = sections.ld; sourceTree = "<group>"; };
+		67AA173018382D5F00C3DBB9 /* serial_fifo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = serial_fifo.c; sourceTree = "<group>"; };
+		67AA173118382D5F00C3DBB9 /* serial_fifo.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = serial_fifo.d; sourceTree = "<group>"; };
+		67AA173218382D5F00C3DBB9 /* serial_fifo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = serial_fifo.h; sourceTree = "<group>"; };
+		67AA173318382D5F00C3DBB9 /* serial_fifo.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = serial_fifo.lst; sourceTree = "<group>"; };
+		67AA173418382D5F00C3DBB9 /* serial_fifo.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = serial_fifo.o; sourceTree = "<group>"; };
+		67AA173518382D5F00C3DBB9 /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		67AA173618382D5F00C3DBB9 /* ubertooth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ubertooth.c; sourceTree = "<group>"; };
+		67AA173718382D5F00C3DBB9 /* ubertooth.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ubertooth.d; sourceTree = "<group>"; };
+		67AA173818382D5F00C3DBB9 /* ubertooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ubertooth.h; sourceTree = "<group>"; };
+		67AA173918382D5F00C3DBB9 /* ubertooth.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = ubertooth.lst; sourceTree = "<group>"; };
+		67AA173A18382D5F00C3DBB9 /* ubertooth.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ubertooth.o; sourceTree = "<group>"; };
+		67AA173B18382D5F00C3DBB9 /* usb_serial.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usb_serial.c; sourceTree = "<group>"; };
+		67AA173C18382D5F00C3DBB9 /* usb_serial.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = usb_serial.d; sourceTree = "<group>"; };
+		67AA173D18382D5F00C3DBB9 /* usb_serial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usb_serial.h; sourceTree = "<group>"; };
+		67AA173E18382D5F00C3DBB9 /* usb_serial.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_serial.lst; sourceTree = "<group>"; };
+		67AA173F18382D5F00C3DBB9 /* usb_serial.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = usb_serial.o; sourceTree = "<group>"; };
+		67AA174018382D5F00C3DBB9 /* common.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = common.mk; sourceTree = "<group>"; };
+		67AA174218382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA174318382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA174418382D5F00C3DBB9 /* bluetooth-ioa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bluetooth-ioa.c"; sourceTree = "<group>"; };
+		67AA174518382D5F00C3DBB9 /* bluetooth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bluetooth.c; sourceTree = "<group>"; };
+		67AA174618382D5F00C3DBB9 /* bluetooth.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = bluetooth.d; sourceTree = "<group>"; };
+		67AA174718382D5F00C3DBB9 /* bluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bluetooth.h; sourceTree = "<group>"; };
+		67AA174818382D5F00C3DBB9 /* bluetooth.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth.lst; sourceTree = "<group>"; };
+		67AA174918382D5F00C3DBB9 /* bluetooth.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bluetooth.o; sourceTree = "<group>"; };
+		67AA174A18382D5F00C3DBB9 /* bluetooth_le.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bluetooth_le.c; sourceTree = "<group>"; };
+		67AA174B18382D5F00C3DBB9 /* bluetooth_le.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = bluetooth_le.d; sourceTree = "<group>"; };
+		67AA174C18382D5F00C3DBB9 /* bluetooth_le.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bluetooth_le.h; sourceTree = "<group>"; };
+		67AA174D18382D5F00C3DBB9 /* bluetooth_le.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_le.lst; sourceTree = "<group>"; };
+		67AA174E18382D5F00C3DBB9 /* bluetooth_le.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bluetooth_le.o; sourceTree = "<group>"; };
+		67AA174F18382D5F00C3DBB9 /* bluetooth_rxtx.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = bluetooth_rxtx.bin; sourceTree = "<group>"; };
+		67AA175018382D5F00C3DBB9 /* bluetooth_rxtx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bluetooth_rxtx.c; sourceTree = "<group>"; };
+		67AA175118382D5F00C3DBB9 /* bluetooth_rxtx.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = bluetooth_rxtx.d; sourceTree = "<group>"; };
+		67AA175218382D5F00C3DBB9 /* bluetooth_rxtx.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = bluetooth_rxtx.dfu; sourceTree = "<group>"; };
+		67AA175318382D5F00C3DBB9 /* bluetooth_rxtx.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bluetooth_rxtx.elf; sourceTree = "<group>"; };
+		67AA175418382D5F00C3DBB9 /* bluetooth_rxtx.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.hex; sourceTree = "<group>"; };
+		67AA175518382D5F00C3DBB9 /* bluetooth_rxtx.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.lss; sourceTree = "<group>"; };
+		67AA175618382D5F00C3DBB9 /* bluetooth_rxtx.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.lst; sourceTree = "<group>"; };
+		67AA175718382D5F00C3DBB9 /* bluetooth_rxtx.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.map; sourceTree = "<group>"; };
+		67AA175818382D5F00C3DBB9 /* bluetooth_rxtx.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bluetooth_rxtx.o; sourceTree = "<group>"; };
+		67AA175918382D5F00C3DBB9 /* bluetooth_rxtx.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.srec; sourceTree = "<group>"; };
+		67AA175A18382D5F00C3DBB9 /* bluetooth_rxtx.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.sym; sourceTree = "<group>"; };
+		67AA175B18382D5F00C3DBB9 /* btle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = btle.c; sourceTree = "<group>"; };
+		67AA175C18382D5F00C3DBB9 /* cc2400.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cc2400.c; sourceTree = "<group>"; };
+		67AA175D18382D5F00C3DBB9 /* cc2400_rangetest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cc2400_rangetest.c; sourceTree = "<group>"; };
+		67AA175E18382D5F00C3DBB9 /* cc2400_rangetest.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = cc2400_rangetest.d; sourceTree = "<group>"; };
+		67AA175F18382D5F00C3DBB9 /* cc2400_rangetest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cc2400_rangetest.h; sourceTree = "<group>"; };
+		67AA176018382D5F00C3DBB9 /* cc2400_rangetest.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_rangetest.lst; sourceTree = "<group>"; };
+		67AA176118382D5F00C3DBB9 /* cc2400_rangetest.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cc2400_rangetest.o; sourceTree = "<group>"; };
+		67AA176218382D5F00C3DBB9 /* ubertooth_usb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ubertooth_usb.c; sourceTree = "<group>"; };
+		67AA176318382D5F00C3DBB9 /* ubertooth_usb.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ubertooth_usb.d; sourceTree = "<group>"; };
+		67AA176418382D5F00C3DBB9 /* ubertooth_usb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ubertooth_usb.h; sourceTree = "<group>"; };
+		67AA176518382D5F00C3DBB9 /* ubertooth_usb.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = ubertooth_usb.lst; sourceTree = "<group>"; };
+		67AA176618382D5F00C3DBB9 /* ubertooth_usb.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ubertooth_usb.o; sourceTree = "<group>"; };
+		67AA176818382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA176918382D5F00C3DBB9 /* R5F212L4.ld */ = {isa = PBXFileReference; lastKnownFileType = text; path = R5F212L4.ld; sourceTree = "<group>"; };
+		67AA176A18382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA176B18382D5F00C3DBB9 /* bitmaps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitmaps.h; sourceTree = "<group>"; };
+		67AA176C18382D5F00C3DBB9 /* cc2400.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cc2400.h; sourceTree = "<group>"; };
+		67AA176D18382D5F00C3DBB9 /* init.S */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = init.S; sourceTree = "<group>"; };
+		67AA176E18382D5F00C3DBB9 /* ivects.S */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = ivects.S; sourceTree = "<group>"; };
+		67AA176F18382D5F00C3DBB9 /* mkports */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = mkports; sourceTree = "<group>"; };
+		67AA177018382D5F00C3DBB9 /* r8c2l.io */ = {isa = PBXFileReference; lastKnownFileType = text; path = r8c2l.io; sourceTree = "<group>"; };
+		67AA177118382D5F00C3DBB9 /* tc13badge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tc13badge.c; sourceTree = "<group>"; };
+		67AA177218382D5F00C3DBB9 /* tc13badge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tc13badge.h; sourceTree = "<group>"; };
+		67AA177318382D5F00C3DBB9 /* toorcon.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = toorcon.c; sourceTree = "<group>"; };
+		67AA177518382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA177618382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA177718382D5F00C3DBB9 /* usb_test.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = usb_test.bin; sourceTree = "<group>"; };
+		67AA177818382D5F00C3DBB9 /* usb_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usb_test.c; sourceTree = "<group>"; };
+		67AA177918382D5F00C3DBB9 /* usb_test.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = usb_test.d; sourceTree = "<group>"; };
+		67AA177A18382D5F00C3DBB9 /* usb_test.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = usb_test.dfu; sourceTree = "<group>"; };
+		67AA177B18382D5F00C3DBB9 /* usb_test.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = usb_test.elf; sourceTree = "<group>"; };
+		67AA177C18382D5F00C3DBB9 /* usb_test.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_test.hex; sourceTree = "<group>"; };
+		67AA177D18382D5F00C3DBB9 /* usb_test.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_test.lss; sourceTree = "<group>"; };
+		67AA177E18382D5F00C3DBB9 /* usb_test.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_test.lst; sourceTree = "<group>"; };
+		67AA177F18382D5F00C3DBB9 /* usb_test.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_test.map; sourceTree = "<group>"; };
+		67AA178018382D5F00C3DBB9 /* usb_test.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = usb_test.o; sourceTree = "<group>"; };
+		67AA178118382D5F00C3DBB9 /* usb_test.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_test.srec; sourceTree = "<group>"; };
+		67AA178218382D5F00C3DBB9 /* usb_test.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_test.sym; sourceTree = "<group>"; };
+		67AA178518382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA178618382D5F00C3DBB9 /* artichoke */ = {isa = PBXFileReference; lastKnownFileType = text; path = artichoke; sourceTree = "<group>"; };
+		67AA178718382D5F00C3DBB9 /* artichoke-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "artichoke-cache.lib"; sourceTree = "<group>"; };
+		67AA178818382D5F00C3DBB9 /* artichoke.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = artichoke.brd; sourceTree = "<group>"; };
+		67AA178918382D5F00C3DBB9 /* artichoke.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = artichoke.cmp; sourceTree = "<group>"; };
+		67AA178A18382D5F00C3DBB9 /* artichoke.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = artichoke.net; sourceTree = "<group>"; };
+		67AA178B18382D5F00C3DBB9 /* artichoke.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = artichoke.pro; sourceTree = "<group>"; };
+		67AA178C18382D5F00C3DBB9 /* artichoke.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = artichoke.sch; sourceTree = "<group>"; };
+		67AA178E18382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA178F18382D5F00C3DBB9 /* broccoli */ = {isa = PBXFileReference; lastKnownFileType = text; path = broccoli; sourceTree = "<group>"; };
+		67AA179018382D5F00C3DBB9 /* broccoli-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "broccoli-cache.lib"; sourceTree = "<group>"; };
+		67AA179118382D5F00C3DBB9 /* broccoli.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = broccoli.brd; sourceTree = "<group>"; };
+		67AA179218382D5F00C3DBB9 /* broccoli.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = broccoli.cmp; sourceTree = "<group>"; };
+		67AA179318382D5F00C3DBB9 /* broccoli.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = broccoli.net; sourceTree = "<group>"; };
+		67AA179418382D5F00C3DBB9 /* broccoli.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = broccoli.pro; sourceTree = "<group>"; };
+		67AA179518382D5F00C3DBB9 /* broccoli.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = broccoli.sch; sourceTree = "<group>"; };
+		67AA179718382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA179818382D5F00C3DBB9 /* celery */ = {isa = PBXFileReference; lastKnownFileType = text; path = celery; sourceTree = "<group>"; };
+		67AA179918382D5F00C3DBB9 /* celery-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "celery-cache.lib"; sourceTree = "<group>"; };
+		67AA179A18382D5F00C3DBB9 /* celery.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = celery.brd; sourceTree = "<group>"; };
+		67AA179B18382D5F00C3DBB9 /* celery.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = celery.cmp; sourceTree = "<group>"; };
+		67AA179C18382D5F00C3DBB9 /* celery.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = celery.net; sourceTree = "<group>"; };
+		67AA179D18382D5F00C3DBB9 /* celery.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = celery.pro; sourceTree = "<group>"; };
+		67AA179E18382D5F00C3DBB9 /* celery.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = celery.sch; sourceTree = "<group>"; };
+		67AA17A018382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA17A118382D5F00C3DBB9 /* endive-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "endive-cache.lib"; sourceTree = "<group>"; };
+		67AA17A218382D5F00C3DBB9 /* endive.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = endive.brd; sourceTree = "<group>"; };
+		67AA17A318382D5F00C3DBB9 /* endive.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = endive.cmp; sourceTree = "<group>"; };
+		67AA17A418382D5F00C3DBB9 /* endive.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = endive.net; sourceTree = "<group>"; };
+		67AA17A518382D5F00C3DBB9 /* endive.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = endive.pro; sourceTree = "<group>"; };
+		67AA17A618382D5F00C3DBB9 /* endive.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = endive.sch; sourceTree = "<group>"; };
+		67AA17A818382D5F00C3DBB9 /* ubertooth-symbols.dcm */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-symbols.dcm"; sourceTree = "<group>"; };
+		67AA17A918382D5F00C3DBB9 /* ubertooth-symbols.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-symbols.lib"; sourceTree = "<group>"; };
+		67AA17AA18382D5F00C3DBB9 /* ubertooth.mdc */ = {isa = PBXFileReference; lastKnownFileType = text; path = ubertooth.mdc; sourceTree = "<group>"; };
+		67AA17AB18382D5F00C3DBB9 /* ubertooth.mod */ = {isa = PBXFileReference; lastKnownFileType = text; path = ubertooth.mod; sourceTree = "<group>"; };
+		67AA17AD18382D5F00C3DBB9 /* pogoprog-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pogoprog-cache.lib"; sourceTree = "<group>"; };
+		67AA17AE18382D5F00C3DBB9 /* pogoprog.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = pogoprog.brd; sourceTree = "<group>"; };
+		67AA17AF18382D5F00C3DBB9 /* pogoprog.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = pogoprog.cmp; sourceTree = "<group>"; };
+		67AA17B018382D5F00C3DBB9 /* pogoprog.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = pogoprog.net; sourceTree = "<group>"; };
+		67AA17B118382D5F00C3DBB9 /* pogoprog.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = pogoprog.pro; sourceTree = "<group>"; };
+		67AA17B218382D5F00C3DBB9 /* pogoprog.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = pogoprog.sch; sourceTree = "<group>"; };
+		67AA17B418382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA17B518382D5F00C3DBB9 /* tc13badge */ = {isa = PBXFileReference; lastKnownFileType = text; path = tc13badge; sourceTree = "<group>"; };
+		67AA17B618382D5F00C3DBB9 /* tc13badge-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "tc13badge-cache.lib"; sourceTree = "<group>"; };
+		67AA17B718382D5F00C3DBB9 /* tc13badge.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = tc13badge.brd; sourceTree = "<group>"; };
+		67AA17B818382D5F00C3DBB9 /* tc13badge.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = tc13badge.cmp; sourceTree = "<group>"; };
+		67AA17B918382D5F00C3DBB9 /* tc13badge.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = tc13badge.net; sourceTree = "<group>"; };
+		67AA17BA18382D5F00C3DBB9 /* tc13badge.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = tc13badge.pro; sourceTree = "<group>"; };
+		67AA17BB18382D5F00C3DBB9 /* tc13badge.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = tc13badge.sch; sourceTree = "<group>"; };
+		67AA17BD18382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA17BE18382D5F00C3DBB9 /* ubertooth-one */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one"; sourceTree = "<group>"; };
+		67AA17BF18382D5F00C3DBB9 /* ubertooth-one-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one-cache.lib"; sourceTree = "<group>"; };
+		67AA17C018382D5F00C3DBB9 /* ubertooth-one.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one.brd"; sourceTree = "<group>"; };
+		67AA17C118382D5F00C3DBB9 /* ubertooth-one.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one.cmp"; sourceTree = "<group>"; };
+		67AA17C218382D5F00C3DBB9 /* ubertooth-one.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one.net"; sourceTree = "<group>"; };
+		67AA17C318382D5F00C3DBB9 /* ubertooth-one.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one.pro"; sourceTree = "<group>"; };
+		67AA17C418382D5F00C3DBB9 /* ubertooth-one.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one.sch"; sourceTree = "<group>"; };
+		67AA17C618382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA17C718382D5F00C3DBB9 /* ubertooth-zero-bom.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-zero-bom.csv"; sourceTree = "<group>"; };
+		67AA17C818382D5F00C3DBB9 /* ubertooth-zero.brd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ubertooth-zero.brd"; sourceTree = "<group>"; };
+		67AA17C918382D5F00C3DBB9 /* ubertooth-zero.sch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ubertooth-zero.sch"; sourceTree = "<group>"; };
+		67AA17CB18382D5F00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA17CC18382D5F00C3DBB9 /* README.btle */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.btle; sourceTree = "<group>"; };
+		67AA17CD18382D5F00C3DBB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		67AA17CF18382D5F00C3DBB9 /* cmake_uninstall.cmake.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake_uninstall.cmake.in; sourceTree = "<group>"; };
+		67AA17D118382D5F00C3DBB9 /* FindBLUETOOTH.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindBLUETOOTH.cmake; sourceTree = "<group>"; };
+		67AA17D218382D5F00C3DBB9 /* FindBTBB.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindBTBB.cmake; sourceTree = "<group>"; };
+		67AA17D318382D5F00C3DBB9 /* FindPCAP.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindPCAP.cmake; sourceTree = "<group>"; };
+		67AA17D418382D5F00C3DBB9 /* FindPackageHandleStandardArgs.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindPackageHandleStandardArgs.cmake; sourceTree = "<group>"; };
+		67AA17D518382D5F00C3DBB9 /* FindPythonInterp.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindPythonInterp.cmake; sourceTree = "<group>"; };
+		67AA17D618382D5F00C3DBB9 /* FindUBERTOOTH.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindUBERTOOTH.cmake; sourceTree = "<group>"; };
+		67AA17D718382D5F00C3DBB9 /* FindUSB1.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindUSB1.cmake; sourceTree = "<group>"; };
+		67AA17D918382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA17DB18382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA17DC18382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA17DD18382D5F00C3DBB9 /* kismet_ubertooth.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kismet_ubertooth.cc; sourceTree = "<group>"; };
+		67AA17DE18382D5F00C3DBB9 /* packet_btbb.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packet_btbb.cc; sourceTree = "<group>"; };
+		67AA17DF18382D5F00C3DBB9 /* packet_btbb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = packet_btbb.h; sourceTree = "<group>"; };
+		67AA17E018382D5F00C3DBB9 /* packet_btbb_types.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packet_btbb_types.cc; sourceTree = "<group>"; };
+		67AA17E118382D5F00C3DBB9 /* packetsource_ubertooth.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packetsource_ubertooth.cc; sourceTree = "<group>"; };
+		67AA17E218382D5F00C3DBB9 /* packetsource_ubertooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = packetsource_ubertooth.h; sourceTree = "<group>"; };
+		67AA17E318382D5F00C3DBB9 /* tracker_btbb.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tracker_btbb.cc; sourceTree = "<group>"; };
+		67AA17E418382D5F00C3DBB9 /* tracker_btbb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tracker_btbb.h; sourceTree = "<group>"; };
+		67AA17E518382D5F00C3DBB9 /* ubertooth_ui.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ubertooth_ui.cc; sourceTree = "<group>"; };
+		67AA17E718382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA17E818382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA17E918382D5F00C3DBB9 /* README.developers */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.developers; sourceTree = "<group>"; };
+		67AA17EA18382D5F00C3DBB9 /* kismet_ubertooth.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kismet_ubertooth.cc; sourceTree = "<group>"; };
+		67AA17EB18382D5F00C3DBB9 /* packet_btbb.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packet_btbb.cc; sourceTree = "<group>"; };
+		67AA17EC18382D5F00C3DBB9 /* packet_btbb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = packet_btbb.h; sourceTree = "<group>"; };
+		67AA17ED18382D5F00C3DBB9 /* packet_btbb_types.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packet_btbb_types.cc; sourceTree = "<group>"; };
+		67AA17EE18382D5F00C3DBB9 /* packetsource_ubertooth.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packetsource_ubertooth.cc; sourceTree = "<group>"; };
+		67AA17EF18382D5F00C3DBB9 /* packetsource_ubertooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = packetsource_ubertooth.h; sourceTree = "<group>"; };
+		67AA17F018382D5F00C3DBB9 /* phy_btbb.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = phy_btbb.cc; sourceTree = "<group>"; };
+		67AA17F118382D5F00C3DBB9 /* phy_btbb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = phy_btbb.h; sourceTree = "<group>"; };
+		67AA17F318382D5F00C3DBB9 /* 40-ubertooth.rules */ = {isa = PBXFileReference; lastKnownFileType = text; path = "40-ubertooth.rules"; sourceTree = "<group>"; };
+		67AA17F418382D5F00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA17F618382D5F00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA17F718382D5F00C3DBB9 /* ubertooth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ubertooth.c; sourceTree = "<group>"; };
+		67AA17F818382D5F00C3DBB9 /* ubertooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ubertooth.h; sourceTree = "<group>"; };
+		67AA17F918382D5F00C3DBB9 /* ubertooth_control.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ubertooth_control.c; sourceTree = "<group>"; };
+		67AA17FA18382D5F00C3DBB9 /* ubertooth_control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ubertooth_control.h; sourceTree = "<group>"; };
+		67AA17FB18382D5F00C3DBB9 /* ubertooth_interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ubertooth_interface.h; sourceTree = "<group>"; };
+		67AA17FD18382D5F00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA17FF18382D5F00C3DBB9 /* Ubertooth-adv.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "Ubertooth-adv.py"; sourceTree = "<group>"; };
+		67AA180018382D5F00C3DBB9 /* Ubertooth-replay.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "Ubertooth-replay.py"; sourceTree = "<group>"; };
+		67AA180118382D5F00C3DBB9 /* Ubertooth.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Ubertooth.py; sourceTree = "<group>"; };
+		67AA180218382D5F00C3DBB9 /* Ubertooth.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ubertooth.pyc; sourceTree = "<group>"; };
+		67AA180318382D5F00C3DBB9 /* kevo-token.pcap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kevo-token.pcap"; sourceTree = "<group>"; };
+		67AA180418382D5F00C3DBB9 /* pairingtest.pcap */ = {isa = PBXFileReference; lastKnownFileType = file; path = pairingtest.pcap; sourceTree = "<group>"; };
+		67AA180618382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA180718382D5F00C3DBB9 /* btle-extcap.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "btle-extcap.py"; sourceTree = "<group>"; };
+		67AA180918382D5F00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA180A18382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA180E18382D5F00C3DBB9 /* Ubertooth.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Ubertooth.py; sourceTree = "<group>"; };
+		67AA180F18382D5F00C3DBB9 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		67AA181018382D5F00C3DBB9 /* setup.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		67AA181118382D5F00C3DBB9 /* setup.py.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = setup.py.in; sourceTree = "<group>"; };
+		67AA181318382D5F00C3DBB9 /* Ubertooth.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Ubertooth.py; sourceTree = "<group>"; };
+		67AA181418382D5F00C3DBB9 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		67AA181518382D5F00C3DBB9 /* ubertooth-specan-ui */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-specan-ui"; sourceTree = "<group>"; };
+		67AA181718382D5F00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA181818382D5F00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA181918382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA181B18382D5F00C3DBB9 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		67AA181C18382D5F00C3DBB9 /* __init__.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = __init__.pyc; sourceTree = "<group>"; };
+		67AA181D18382D5F00C3DBB9 /* dfu.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = dfu.py; sourceTree = "<group>"; };
+		67AA181E18382D5F00C3DBB9 /* dfu.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = dfu.pyc; sourceTree = "<group>"; };
+		67AA181F18382D5F00C3DBB9 /* setup.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		67AA182018382D5F00C3DBB9 /* setup.py.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = setup.py.in; sourceTree = "<group>"; };
+		67AA182118382D5F00C3DBB9 /* ubertooth-dfu */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-dfu"; sourceTree = "<group>"; };
+		67AA182318382D5F00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA182518382D5F00C3DBB9 /* getopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		67AA182618382D5F00C3DBB9 /* getopt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getopt.h; sourceTree = "<group>"; };
+		67AA182818382D5F00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA182918382D5F00C3DBB9 /* arglist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = arglist.c; sourceTree = "<group>"; };
+		67AA182A18382D5F00C3DBB9 /* arglist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arglist.h; sourceTree = "<group>"; };
+		67AA182B18382D5F00C3DBB9 /* cc2400.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cc2400.c; sourceTree = "<group>"; };
+		67AA182C18382D5F00C3DBB9 /* cc2400.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cc2400.h; sourceTree = "<group>"; };
+		67AA182D18382D5F00C3DBB9 /* ubertooth-btle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-btle.c"; sourceTree = "<group>"; };
+		67AA182E18382D5F00C3DBB9 /* ubertooth-debug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-debug.c"; sourceTree = "<group>"; };
+		67AA182F18382D5F00C3DBB9 /* ubertooth-dump.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-dump.c"; sourceTree = "<group>"; };
+		67AA183018382D5F00C3DBB9 /* ubertooth-follow.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-follow.c"; sourceTree = "<group>"; };
+		67AA183118382D5F00C3DBB9 /* ubertooth-rx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-rx.c"; sourceTree = "<group>"; };
+		67AA183218382D5F00C3DBB9 /* ubertooth-scan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-scan.c"; sourceTree = "<group>"; };
+		67AA183318382D5F00C3DBB9 /* ubertooth-specan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-specan.c"; sourceTree = "<group>"; };
+		67AA183418382D5F00C3DBB9 /* ubertooth-util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-util.c"; sourceTree = "<group>"; };
+		67AA183518382D5F00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = ../README; sourceTree = "<group>"; };
+		67AA183718382D5F00C3DBB9 /* RELEASENOTES */ = {isa = PBXFileReference; lastKnownFileType = text; path = RELEASENOTES; sourceTree = "<group>"; };
+		67AA183818382D5F00C3DBB9 /* ubertooth-release.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "ubertooth-release.sh"; sourceTree = "<group>"; };
+		67AA183918382D5F00C3DBB9 /* ubertooth-release.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-release.txt"; sourceTree = "<group>"; };
+		67AA183A18382D5F00C3DBB9 /* TRADEMARK */ = {isa = PBXFileReference; lastKnownFileType = text; name = TRADEMARK; path = ../TRADEMARK; sourceTree = "<group>"; };
+		67AA183C18382D5F00C3DBB9 /* ubertooth.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ubertooth.xcodeproj; sourceTree = "<group>"; };
+		67AA184018382D6A00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA184118382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA184318382D6A00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA184418382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA184518382D6A00C3DBB9 /* assembly_test.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = assembly_test.bin; sourceTree = "<group>"; };
+		67AA184618382D6A00C3DBB9 /* assembly_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = assembly_test.c; sourceTree = "<group>"; };
+		67AA184718382D6A00C3DBB9 /* assembly_test.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = assembly_test.d; sourceTree = "<group>"; };
+		67AA184818382D6A00C3DBB9 /* assembly_test.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = assembly_test.dfu; sourceTree = "<group>"; };
+		67AA184918382D6A00C3DBB9 /* assembly_test.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = assembly_test.elf; sourceTree = "<group>"; };
+		67AA184A18382D6A00C3DBB9 /* assembly_test.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = assembly_test.hex; sourceTree = "<group>"; };
+		67AA184B18382D6A00C3DBB9 /* assembly_test.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = assembly_test.lss; sourceTree = "<group>"; };
+		67AA184C18382D6A00C3DBB9 /* assembly_test.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = assembly_test.lst; sourceTree = "<group>"; };
+		67AA184D18382D6A00C3DBB9 /* assembly_test.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = assembly_test.map; sourceTree = "<group>"; };
+		67AA184E18382D6A00C3DBB9 /* assembly_test.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = assembly_test.o; sourceTree = "<group>"; };
+		67AA184F18382D6A00C3DBB9 /* assembly_test.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = assembly_test.srec; sourceTree = "<group>"; };
+		67AA185018382D6A00C3DBB9 /* assembly_test.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = assembly_test.sym; sourceTree = "<group>"; };
+		67AA185218382D6A00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA185318382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA185418382D6A00C3DBB9 /* blinky.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = blinky.bin; sourceTree = "<group>"; };
+		67AA185518382D6A00C3DBB9 /* blinky.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = blinky.c; sourceTree = "<group>"; };
+		67AA185618382D6A00C3DBB9 /* blinky.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = blinky.d; sourceTree = "<group>"; };
+		67AA185718382D6A00C3DBB9 /* blinky.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = blinky.dfu; sourceTree = "<group>"; };
+		67AA185818382D6A00C3DBB9 /* blinky.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blinky.elf; sourceTree = "<group>"; };
+		67AA185918382D6A00C3DBB9 /* blinky.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = blinky.hex; sourceTree = "<group>"; };
+		67AA185A18382D6A00C3DBB9 /* blinky.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = blinky.lss; sourceTree = "<group>"; };
+		67AA185B18382D6A00C3DBB9 /* blinky.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = blinky.lst; sourceTree = "<group>"; };
+		67AA185C18382D6A00C3DBB9 /* blinky.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = blinky.map; sourceTree = "<group>"; };
+		67AA185D18382D6A00C3DBB9 /* blinky.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = blinky.o; sourceTree = "<group>"; };
+		67AA185E18382D6A00C3DBB9 /* blinky.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = blinky.srec; sourceTree = "<group>"; };
+		67AA185F18382D6A00C3DBB9 /* blinky.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = blinky.sym; sourceTree = "<group>"; };
+		67AA186118382D6A00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA186218382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA186318382D6A00C3DBB9 /* bluetooth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bluetooth.c; sourceTree = "<group>"; };
+		67AA186418382D6A00C3DBB9 /* bluetooth.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = bluetooth.d; sourceTree = "<group>"; };
+		67AA186518382D6A00C3DBB9 /* bluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bluetooth.h; sourceTree = "<group>"; };
+		67AA186618382D6A00C3DBB9 /* bluetooth.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth.lst; sourceTree = "<group>"; };
+		67AA186718382D6A00C3DBB9 /* bluetooth.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bluetooth.o; sourceTree = "<group>"; };
+		67AA186818382D6A00C3DBB9 /* bluetooth_le.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bluetooth_le.c; sourceTree = "<group>"; };
+		67AA186918382D6A00C3DBB9 /* bluetooth_le.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = bluetooth_le.d; sourceTree = "<group>"; };
+		67AA186A18382D6A00C3DBB9 /* bluetooth_le.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bluetooth_le.h; sourceTree = "<group>"; };
+		67AA186B18382D6A00C3DBB9 /* bluetooth_le.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_le.lst; sourceTree = "<group>"; };
+		67AA186C18382D6A00C3DBB9 /* bluetooth_le.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bluetooth_le.o; sourceTree = "<group>"; };
+		67AA186D18382D6A00C3DBB9 /* bluetooth_rxtx.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = bluetooth_rxtx.bin; sourceTree = "<group>"; };
+		67AA186E18382D6A00C3DBB9 /* bluetooth_rxtx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bluetooth_rxtx.c; sourceTree = "<group>"; };
+		67AA186F18382D6A00C3DBB9 /* bluetooth_rxtx.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = bluetooth_rxtx.d; sourceTree = "<group>"; };
+		67AA187018382D6A00C3DBB9 /* bluetooth_rxtx.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = bluetooth_rxtx.dfu; sourceTree = "<group>"; };
+		67AA187118382D6A00C3DBB9 /* bluetooth_rxtx.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bluetooth_rxtx.elf; sourceTree = "<group>"; };
+		67AA187218382D6A00C3DBB9 /* bluetooth_rxtx.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.hex; sourceTree = "<group>"; };
+		67AA187318382D6A00C3DBB9 /* bluetooth_rxtx.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.lss; sourceTree = "<group>"; };
+		67AA187418382D6A00C3DBB9 /* bluetooth_rxtx.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.lst; sourceTree = "<group>"; };
+		67AA187518382D6A00C3DBB9 /* bluetooth_rxtx.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.map; sourceTree = "<group>"; };
+		67AA187618382D6A00C3DBB9 /* bluetooth_rxtx.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bluetooth_rxtx.o; sourceTree = "<group>"; };
+		67AA187718382D6A00C3DBB9 /* bluetooth_rxtx.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.srec; sourceTree = "<group>"; };
+		67AA187818382D6A00C3DBB9 /* bluetooth_rxtx.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = bluetooth_rxtx.sym; sourceTree = "<group>"; };
+		67AA187918382D6A00C3DBB9 /* cc2400_rangetest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cc2400_rangetest.c; sourceTree = "<group>"; };
+		67AA187A18382D6A00C3DBB9 /* cc2400_rangetest.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = cc2400_rangetest.d; sourceTree = "<group>"; };
+		67AA187B18382D6A00C3DBB9 /* cc2400_rangetest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cc2400_rangetest.h; sourceTree = "<group>"; };
+		67AA187C18382D6A00C3DBB9 /* cc2400_rangetest.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_rangetest.lst; sourceTree = "<group>"; };
+		67AA187D18382D6A00C3DBB9 /* cc2400_rangetest.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cc2400_rangetest.o; sourceTree = "<group>"; };
+		67AA187E18382D6A00C3DBB9 /* hop_increment */ = {isa = PBXFileReference; lastKnownFileType = text; path = hop_increment; sourceTree = "<group>"; };
+		67AA187F18382D6A00C3DBB9 /* ubertooth_usb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ubertooth_usb.c; sourceTree = "<group>"; };
+		67AA188018382D6A00C3DBB9 /* ubertooth_usb.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ubertooth_usb.d; sourceTree = "<group>"; };
+		67AA188118382D6A00C3DBB9 /* ubertooth_usb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ubertooth_usb.h; sourceTree = "<group>"; };
+		67AA188218382D6A00C3DBB9 /* ubertooth_usb.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = ubertooth_usb.lst; sourceTree = "<group>"; };
+		67AA188318382D6A00C3DBB9 /* ubertooth_usb.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ubertooth_usb.o; sourceTree = "<group>"; };
+		67AA188518382D6A00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA188618382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA188718382D6A00C3DBB9 /* bootloader.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = bootloader.bin; sourceTree = "<group>"; };
+		67AA188818382D6A00C3DBB9 /* bootloader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bootloader.cpp; sourceTree = "<group>"; };
+		67AA188918382D6A00C3DBB9 /* bootloader.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = bootloader.d; sourceTree = "<group>"; };
+		67AA188A18382D6A00C3DBB9 /* bootloader.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bootloader.elf; sourceTree = "<group>"; };
+		67AA188B18382D6A00C3DBB9 /* bootloader.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootloader.hex; sourceTree = "<group>"; };
+		67AA188C18382D6A00C3DBB9 /* bootloader.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootloader.lss; sourceTree = "<group>"; };
+		67AA188D18382D6A00C3DBB9 /* bootloader.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootloader.lst; sourceTree = "<group>"; };
+		67AA188E18382D6A00C3DBB9 /* bootloader.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootloader.map; sourceTree = "<group>"; };
+		67AA188F18382D6A00C3DBB9 /* bootloader.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = bootloader.o; sourceTree = "<group>"; };
+		67AA189018382D6A00C3DBB9 /* bootloader.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootloader.srec; sourceTree = "<group>"; };
+		67AA189118382D6A00C3DBB9 /* bootloader.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = bootloader.sym; sourceTree = "<group>"; };
+		67AA189218382D6A00C3DBB9 /* dfu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dfu.cpp; sourceTree = "<group>"; };
+		67AA189318382D6A00C3DBB9 /* dfu.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = dfu.d; sourceTree = "<group>"; };
+		67AA189418382D6A00C3DBB9 /* dfu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dfu.h; sourceTree = "<group>"; };
+		67AA189518382D6A00C3DBB9 /* dfu.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = dfu.lst; sourceTree = "<group>"; };
+		67AA189618382D6A00C3DBB9 /* dfu.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dfu.o; sourceTree = "<group>"; };
+		67AA189718382D6A00C3DBB9 /* flash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flash.h; sourceTree = "<group>"; };
+		67AA189818382D6A00C3DBB9 /* iap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = iap.cpp; sourceTree = "<group>"; };
+		67AA189918382D6A00C3DBB9 /* iap.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = iap.d; sourceTree = "<group>"; };
+		67AA189A18382D6A00C3DBB9 /* iap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iap.h; sourceTree = "<group>"; };
+		67AA189B18382D6A00C3DBB9 /* iap.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = iap.lst; sourceTree = "<group>"; };
+		67AA189C18382D6A00C3DBB9 /* iap.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = iap.o; sourceTree = "<group>"; };
+		67AA189E18382D6A00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA189F18382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA18A018382D6A00C3DBB9 /* cc2400_test.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = cc2400_test.bin; sourceTree = "<group>"; };
+		67AA18A118382D6A00C3DBB9 /* cc2400_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cc2400_test.c; sourceTree = "<group>"; };
+		67AA18A218382D6A00C3DBB9 /* cc2400_test.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = cc2400_test.d; sourceTree = "<group>"; };
+		67AA18A318382D6A00C3DBB9 /* cc2400_test.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = cc2400_test.dfu; sourceTree = "<group>"; };
+		67AA18A418382D6A00C3DBB9 /* cc2400_test.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cc2400_test.elf; sourceTree = "<group>"; };
+		67AA18A518382D6A00C3DBB9 /* cc2400_test.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_test.hex; sourceTree = "<group>"; };
+		67AA18A618382D6A00C3DBB9 /* cc2400_test.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_test.lss; sourceTree = "<group>"; };
+		67AA18A718382D6A00C3DBB9 /* cc2400_test.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_test.lst; sourceTree = "<group>"; };
+		67AA18A818382D6A00C3DBB9 /* cc2400_test.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_test.map; sourceTree = "<group>"; };
+		67AA18A918382D6A00C3DBB9 /* cc2400_test.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cc2400_test.o; sourceTree = "<group>"; };
+		67AA18AA18382D6A00C3DBB9 /* cc2400_test.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_test.srec; sourceTree = "<group>"; };
+		67AA18AB18382D6A00C3DBB9 /* cc2400_test.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = cc2400_test.sym; sourceTree = "<group>"; };
+		67AA18AD18382D6A00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA18AE18382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA18AF18382D6A00C3DBB9 /* clock_test.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = clock_test.bin; sourceTree = "<group>"; };
+		67AA18B018382D6A00C3DBB9 /* clock_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = clock_test.c; sourceTree = "<group>"; };
+		67AA18B118382D6A00C3DBB9 /* clock_test.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = clock_test.d; sourceTree = "<group>"; };
+		67AA18B218382D6A00C3DBB9 /* clock_test.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = clock_test.dfu; sourceTree = "<group>"; };
+		67AA18B318382D6A00C3DBB9 /* clock_test.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = clock_test.elf; sourceTree = "<group>"; };
+		67AA18B418382D6A00C3DBB9 /* clock_test.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = clock_test.hex; sourceTree = "<group>"; };
+		67AA18B518382D6A00C3DBB9 /* clock_test.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = clock_test.lss; sourceTree = "<group>"; };
+		67AA18B618382D6A00C3DBB9 /* clock_test.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = clock_test.lst; sourceTree = "<group>"; };
+		67AA18B718382D6A00C3DBB9 /* clock_test.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = clock_test.map; sourceTree = "<group>"; };
+		67AA18B818382D6A00C3DBB9 /* clock_test.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = clock_test.o; sourceTree = "<group>"; };
+		67AA18B918382D6A00C3DBB9 /* clock_test.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = clock_test.srec; sourceTree = "<group>"; };
+		67AA18BA18382D6A00C3DBB9 /* clock_test.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = clock_test.sym; sourceTree = "<group>"; };
+		67AA18BC18382D6A00C3DBB9 /* LPC17xx_Interrupts.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LPC17xx_Interrupts.c; sourceTree = "<group>"; };
+		67AA18C318382D6A00C3DBB9 /* LPC17xx_Startup.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LPC17xx_Startup.c; sourceTree = "<group>"; };
+		67AA18C718382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA18C818382D6A00C3DBB9 /* cc2400.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cc2400.h; sourceTree = "<group>"; };
+		67AA18C918382D6A00C3DBB9 /* lpc17.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lpc17.h; sourceTree = "<group>"; };
+		67AA18CB18382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA18CD18382D6A00C3DBB9 /* debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		67AA18CE18382D6A00C3DBB9 /* type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = type.h; sourceTree = "<group>"; };
+		67AA18CF18382D6A00C3DBB9 /* usbapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usbapi.h; sourceTree = "<group>"; };
+		67AA18D018382D6A00C3DBB9 /* usbcontrol.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usbcontrol.c; sourceTree = "<group>"; };
+		67AA18D118382D6A00C3DBB9 /* usbcontrol.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = usbcontrol.d; sourceTree = "<group>"; };
+		67AA18D218382D6A00C3DBB9 /* usbcontrol.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = usbcontrol.lst; sourceTree = "<group>"; };
+		67AA18D318382D6A00C3DBB9 /* usbcontrol.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = usbcontrol.o; sourceTree = "<group>"; };
+		67AA18D418382D6A00C3DBB9 /* usbhw_lpc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usbhw_lpc.c; sourceTree = "<group>"; };
+		67AA18D518382D6A00C3DBB9 /* usbhw_lpc.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = usbhw_lpc.d; sourceTree = "<group>"; };
+		67AA18D618382D6A00C3DBB9 /* usbhw_lpc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usbhw_lpc.h; sourceTree = "<group>"; };
+		67AA18D718382D6A00C3DBB9 /* usbhw_lpc.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = usbhw_lpc.lst; sourceTree = "<group>"; };
+		67AA18D818382D6A00C3DBB9 /* usbhw_lpc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = usbhw_lpc.o; sourceTree = "<group>"; };
+		67AA18D918382D6A00C3DBB9 /* usbinit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usbinit.c; sourceTree = "<group>"; };
+		67AA18DA18382D6A00C3DBB9 /* usbinit.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = usbinit.d; sourceTree = "<group>"; };
+		67AA18DB18382D6A00C3DBB9 /* usbinit.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = usbinit.lst; sourceTree = "<group>"; };
+		67AA18DC18382D6A00C3DBB9 /* usbinit.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = usbinit.o; sourceTree = "<group>"; };
+		67AA18DD18382D6A00C3DBB9 /* usbstdreq.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usbstdreq.c; sourceTree = "<group>"; };
+		67AA18DE18382D6A00C3DBB9 /* usbstdreq.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = usbstdreq.d; sourceTree = "<group>"; };
+		67AA18DF18382D6A00C3DBB9 /* usbstdreq.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = usbstdreq.lst; sourceTree = "<group>"; };
+		67AA18E018382D6A00C3DBB9 /* usbstdreq.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = usbstdreq.o; sourceTree = "<group>"; };
+		67AA18E118382D6A00C3DBB9 /* usbstruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = usbstruct.h; sourceTree = "<group>"; };
+		67AA18E218382D6A00C3DBB9 /* sections.ld */ = {isa = PBXFileReference; lastKnownFileType = text; path = sections.ld; sourceTree = "<group>"; };
+		67AA18E318382D6A00C3DBB9 /* serial_fifo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = serial_fifo.c; sourceTree = "<group>"; };
+		67AA18E818382D6A00C3DBB9 /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		67AA18E918382D6A00C3DBB9 /* ubertooth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ubertooth.c; sourceTree = "<group>"; };
+		67AA18EE18382D6A00C3DBB9 /* usb_serial.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usb_serial.c; sourceTree = "<group>"; };
+		67AA18F318382D6A00C3DBB9 /* common.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = common.mk; sourceTree = "<group>"; };
+		67AA18F518382D6A00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA18F618382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA18F718382D6A00C3DBB9 /* bluetooth-ioa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bluetooth-ioa.c"; sourceTree = "<group>"; };
+		67AA18F818382D6A00C3DBB9 /* bluetooth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bluetooth.c; sourceTree = "<group>"; };
+		67AA18FD18382D6A00C3DBB9 /* bluetooth_le.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bluetooth_le.c; sourceTree = "<group>"; };
+		67AA190F18382D6A00C3DBB9 /* cc2400.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cc2400.c; sourceTree = "<group>"; };
+		67AA191018382D6A00C3DBB9 /* cc2400_rangetest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cc2400_rangetest.c; sourceTree = "<group>"; };
+		67AA191518382D6A00C3DBB9 /* ubertooth_usb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ubertooth_usb.c; sourceTree = "<group>"; };
+		67AA191B18382D6A00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA191C18382D6A00C3DBB9 /* R5F212L4.ld */ = {isa = PBXFileReference; lastKnownFileType = text; path = R5F212L4.ld; sourceTree = "<group>"; };
+		67AA191D18382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA191E18382D6A00C3DBB9 /* bitmaps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitmaps.h; sourceTree = "<group>"; };
+		67AA191F18382D6A00C3DBB9 /* cc2400.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cc2400.h; sourceTree = "<group>"; };
+		67AA192018382D6A00C3DBB9 /* init.S */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = init.S; sourceTree = "<group>"; };
+		67AA192118382D6A00C3DBB9 /* ivects.S */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = ivects.S; sourceTree = "<group>"; };
+		67AA192218382D6A00C3DBB9 /* mkports */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = mkports; sourceTree = "<group>"; };
+		67AA192318382D6A00C3DBB9 /* r8c2l.io */ = {isa = PBXFileReference; lastKnownFileType = text; path = r8c2l.io; sourceTree = "<group>"; };
+		67AA192418382D6A00C3DBB9 /* tc13badge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tc13badge.c; sourceTree = "<group>"; };
+		67AA192518382D6A00C3DBB9 /* tc13badge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tc13badge.h; sourceTree = "<group>"; };
+		67AA192618382D6A00C3DBB9 /* toorcon.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = toorcon.c; sourceTree = "<group>"; };
+		67AA192818382D6A00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA192918382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA192A18382D6A00C3DBB9 /* usb_test.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = usb_test.bin; sourceTree = "<group>"; };
+		67AA192B18382D6A00C3DBB9 /* usb_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = usb_test.c; sourceTree = "<group>"; };
+		67AA192C18382D6A00C3DBB9 /* usb_test.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = usb_test.d; sourceTree = "<group>"; };
+		67AA192D18382D6A00C3DBB9 /* usb_test.dfu */ = {isa = PBXFileReference; lastKnownFileType = file; path = usb_test.dfu; sourceTree = "<group>"; };
+		67AA192E18382D6A00C3DBB9 /* usb_test.elf */ = {isa = PBXFileReference; lastKnownFileType = file; path = usb_test.elf; sourceTree = "<group>"; };
+		67AA192F18382D6A00C3DBB9 /* usb_test.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_test.hex; sourceTree = "<group>"; };
+		67AA193018382D6A00C3DBB9 /* usb_test.lss */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_test.lss; sourceTree = "<group>"; };
+		67AA193118382D6A00C3DBB9 /* usb_test.lst */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_test.lst; sourceTree = "<group>"; };
+		67AA193218382D6A00C3DBB9 /* usb_test.map */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_test.map; sourceTree = "<group>"; };
+		67AA193318382D6A00C3DBB9 /* usb_test.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = usb_test.o; sourceTree = "<group>"; };
+		67AA193418382D6A00C3DBB9 /* usb_test.srec */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_test.srec; sourceTree = "<group>"; };
+		67AA193518382D6A00C3DBB9 /* usb_test.sym */ = {isa = PBXFileReference; lastKnownFileType = text; path = usb_test.sym; sourceTree = "<group>"; };
+		67AA193818382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA193918382D6A00C3DBB9 /* artichoke */ = {isa = PBXFileReference; lastKnownFileType = text; path = artichoke; sourceTree = "<group>"; };
+		67AA193A18382D6A00C3DBB9 /* artichoke-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "artichoke-cache.lib"; sourceTree = "<group>"; };
+		67AA193B18382D6A00C3DBB9 /* artichoke.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = artichoke.brd; sourceTree = "<group>"; };
+		67AA193C18382D6A00C3DBB9 /* artichoke.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = artichoke.cmp; sourceTree = "<group>"; };
+		67AA193D18382D6A00C3DBB9 /* artichoke.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = artichoke.net; sourceTree = "<group>"; };
+		67AA193E18382D6A00C3DBB9 /* artichoke.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = artichoke.pro; sourceTree = "<group>"; };
+		67AA193F18382D6A00C3DBB9 /* artichoke.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = artichoke.sch; sourceTree = "<group>"; };
+		67AA194118382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA194218382D6A00C3DBB9 /* broccoli */ = {isa = PBXFileReference; lastKnownFileType = text; path = broccoli; sourceTree = "<group>"; };
+		67AA194318382D6A00C3DBB9 /* broccoli-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "broccoli-cache.lib"; sourceTree = "<group>"; };
+		67AA194418382D6A00C3DBB9 /* broccoli.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = broccoli.brd; sourceTree = "<group>"; };
+		67AA194518382D6A00C3DBB9 /* broccoli.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = broccoli.cmp; sourceTree = "<group>"; };
+		67AA194618382D6A00C3DBB9 /* broccoli.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = broccoli.net; sourceTree = "<group>"; };
+		67AA194718382D6A00C3DBB9 /* broccoli.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = broccoli.pro; sourceTree = "<group>"; };
+		67AA194818382D6A00C3DBB9 /* broccoli.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = broccoli.sch; sourceTree = "<group>"; };
+		67AA194A18382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA194B18382D6A00C3DBB9 /* celery */ = {isa = PBXFileReference; lastKnownFileType = text; path = celery; sourceTree = "<group>"; };
+		67AA194C18382D6A00C3DBB9 /* celery-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "celery-cache.lib"; sourceTree = "<group>"; };
+		67AA194D18382D6A00C3DBB9 /* celery.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = celery.brd; sourceTree = "<group>"; };
+		67AA194E18382D6A00C3DBB9 /* celery.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = celery.cmp; sourceTree = "<group>"; };
+		67AA194F18382D6A00C3DBB9 /* celery.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = celery.net; sourceTree = "<group>"; };
+		67AA195018382D6A00C3DBB9 /* celery.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = celery.pro; sourceTree = "<group>"; };
+		67AA195118382D6A00C3DBB9 /* celery.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = celery.sch; sourceTree = "<group>"; };
+		67AA195318382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA195418382D6A00C3DBB9 /* endive-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "endive-cache.lib"; sourceTree = "<group>"; };
+		67AA195518382D6A00C3DBB9 /* endive.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = endive.brd; sourceTree = "<group>"; };
+		67AA195618382D6A00C3DBB9 /* endive.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = endive.cmp; sourceTree = "<group>"; };
+		67AA195718382D6A00C3DBB9 /* endive.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = endive.net; sourceTree = "<group>"; };
+		67AA195818382D6A00C3DBB9 /* endive.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = endive.pro; sourceTree = "<group>"; };
+		67AA195918382D6A00C3DBB9 /* endive.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = endive.sch; sourceTree = "<group>"; };
+		67AA195B18382D6A00C3DBB9 /* ubertooth-symbols.dcm */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-symbols.dcm"; sourceTree = "<group>"; };
+		67AA195C18382D6A00C3DBB9 /* ubertooth-symbols.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-symbols.lib"; sourceTree = "<group>"; };
+		67AA195D18382D6A00C3DBB9 /* ubertooth.mdc */ = {isa = PBXFileReference; lastKnownFileType = text; path = ubertooth.mdc; sourceTree = "<group>"; };
+		67AA195E18382D6A00C3DBB9 /* ubertooth.mod */ = {isa = PBXFileReference; lastKnownFileType = text; path = ubertooth.mod; sourceTree = "<group>"; };
+		67AA196018382D6A00C3DBB9 /* pogoprog-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pogoprog-cache.lib"; sourceTree = "<group>"; };
+		67AA196118382D6A00C3DBB9 /* pogoprog.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = pogoprog.brd; sourceTree = "<group>"; };
+		67AA196218382D6A00C3DBB9 /* pogoprog.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = pogoprog.cmp; sourceTree = "<group>"; };
+		67AA196318382D6A00C3DBB9 /* pogoprog.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = pogoprog.net; sourceTree = "<group>"; };
+		67AA196418382D6A00C3DBB9 /* pogoprog.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = pogoprog.pro; sourceTree = "<group>"; };
+		67AA196518382D6A00C3DBB9 /* pogoprog.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = pogoprog.sch; sourceTree = "<group>"; };
+		67AA196718382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA196818382D6A00C3DBB9 /* tc13badge */ = {isa = PBXFileReference; lastKnownFileType = text; path = tc13badge; sourceTree = "<group>"; };
+		67AA196918382D6A00C3DBB9 /* tc13badge-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "tc13badge-cache.lib"; sourceTree = "<group>"; };
+		67AA196A18382D6A00C3DBB9 /* tc13badge.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = tc13badge.brd; sourceTree = "<group>"; };
+		67AA196B18382D6A00C3DBB9 /* tc13badge.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = tc13badge.cmp; sourceTree = "<group>"; };
+		67AA196C18382D6A00C3DBB9 /* tc13badge.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = tc13badge.net; sourceTree = "<group>"; };
+		67AA196D18382D6A00C3DBB9 /* tc13badge.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = tc13badge.pro; sourceTree = "<group>"; };
+		67AA196E18382D6A00C3DBB9 /* tc13badge.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = tc13badge.sch; sourceTree = "<group>"; };
+		67AA197018382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA197118382D6A00C3DBB9 /* ubertooth-one */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one"; sourceTree = "<group>"; };
+		67AA197218382D6A00C3DBB9 /* ubertooth-one-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one-cache.lib"; sourceTree = "<group>"; };
+		67AA197318382D6A00C3DBB9 /* ubertooth-one.brd */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one.brd"; sourceTree = "<group>"; };
+		67AA197418382D6A00C3DBB9 /* ubertooth-one.cmp */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one.cmp"; sourceTree = "<group>"; };
+		67AA197518382D6A00C3DBB9 /* ubertooth-one.net */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one.net"; sourceTree = "<group>"; };
+		67AA197618382D6A00C3DBB9 /* ubertooth-one.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one.pro"; sourceTree = "<group>"; };
+		67AA197718382D6A00C3DBB9 /* ubertooth-one.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-one.sch"; sourceTree = "<group>"; };
+		67AA197918382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA197A18382D6A00C3DBB9 /* ubertooth-zero-bom.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-zero-bom.csv"; sourceTree = "<group>"; };
+		67AA197B18382D6A00C3DBB9 /* ubertooth-zero.brd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ubertooth-zero.brd"; sourceTree = "<group>"; };
+		67AA197C18382D6A00C3DBB9 /* ubertooth-zero.sch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ubertooth-zero.sch"; sourceTree = "<group>"; };
+		67AA197E18382D6A00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA197F18382D6A00C3DBB9 /* README.btle */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.btle; sourceTree = "<group>"; };
+		67AA198018382D6A00C3DBB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		67AA198218382D6A00C3DBB9 /* cmake_uninstall.cmake.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = cmake_uninstall.cmake.in; sourceTree = "<group>"; };
+		67AA198418382D6A00C3DBB9 /* FindBLUETOOTH.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindBLUETOOTH.cmake; sourceTree = "<group>"; };
+		67AA198518382D6A00C3DBB9 /* FindBTBB.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindBTBB.cmake; sourceTree = "<group>"; };
+		67AA198618382D6A00C3DBB9 /* FindPCAP.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindPCAP.cmake; sourceTree = "<group>"; };
+		67AA198718382D6A00C3DBB9 /* FindPackageHandleStandardArgs.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindPackageHandleStandardArgs.cmake; sourceTree = "<group>"; };
+		67AA198818382D6A00C3DBB9 /* FindPythonInterp.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindPythonInterp.cmake; sourceTree = "<group>"; };
+		67AA198918382D6A00C3DBB9 /* FindUBERTOOTH.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindUBERTOOTH.cmake; sourceTree = "<group>"; };
+		67AA198A18382D6A00C3DBB9 /* FindUSB1.cmake */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindUSB1.cmake; sourceTree = "<group>"; };
+		67AA198C18382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA198E18382D6A00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA198F18382D6A00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA199018382D6A00C3DBB9 /* kismet_ubertooth.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kismet_ubertooth.cc; sourceTree = "<group>"; };
+		67AA199118382D6A00C3DBB9 /* packet_btbb.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packet_btbb.cc; sourceTree = "<group>"; };
+		67AA199218382D6A00C3DBB9 /* packet_btbb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = packet_btbb.h; sourceTree = "<group>"; };
+		67AA199318382D6A00C3DBB9 /* packet_btbb_types.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packet_btbb_types.cc; sourceTree = "<group>"; };
+		67AA199418382D6A00C3DBB9 /* packetsource_ubertooth.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packetsource_ubertooth.cc; sourceTree = "<group>"; };
+		67AA199518382D6A00C3DBB9 /* packetsource_ubertooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = packetsource_ubertooth.h; sourceTree = "<group>"; };
+		67AA199618382D6A00C3DBB9 /* tracker_btbb.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tracker_btbb.cc; sourceTree = "<group>"; };
+		67AA199718382D6A00C3DBB9 /* tracker_btbb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tracker_btbb.h; sourceTree = "<group>"; };
+		67AA199818382D6A00C3DBB9 /* ubertooth_ui.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ubertooth_ui.cc; sourceTree = "<group>"; };
+		67AA199A18382D6B00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA199B18382D6B00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA199C18382D6B00C3DBB9 /* README.developers */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.developers; sourceTree = "<group>"; };
+		67AA199D18382D6B00C3DBB9 /* kismet_ubertooth.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kismet_ubertooth.cc; sourceTree = "<group>"; };
+		67AA199E18382D6B00C3DBB9 /* packet_btbb.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packet_btbb.cc; sourceTree = "<group>"; };
+		67AA199F18382D6B00C3DBB9 /* packet_btbb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = packet_btbb.h; sourceTree = "<group>"; };
+		67AA19A018382D6B00C3DBB9 /* packet_btbb_types.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packet_btbb_types.cc; sourceTree = "<group>"; };
+		67AA19A118382D6B00C3DBB9 /* packetsource_ubertooth.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = packetsource_ubertooth.cc; sourceTree = "<group>"; };
+		67AA19A218382D6B00C3DBB9 /* packetsource_ubertooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = packetsource_ubertooth.h; sourceTree = "<group>"; };
+		67AA19A318382D6B00C3DBB9 /* phy_btbb.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = phy_btbb.cc; sourceTree = "<group>"; };
+		67AA19A418382D6B00C3DBB9 /* phy_btbb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = phy_btbb.h; sourceTree = "<group>"; };
+		67AA19A618382D6B00C3DBB9 /* 40-ubertooth.rules */ = {isa = PBXFileReference; lastKnownFileType = text; path = "40-ubertooth.rules"; sourceTree = "<group>"; };
+		67AA19A718382D6B00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA19A918382D6B00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA19AA18382D6B00C3DBB9 /* ubertooth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ubertooth.c; sourceTree = "<group>"; };
+		67AA19AB18382D6B00C3DBB9 /* ubertooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ubertooth.h; sourceTree = "<group>"; };
+		67AA19AC18382D6B00C3DBB9 /* ubertooth_control.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ubertooth_control.c; sourceTree = "<group>"; };
+		67AA19AD18382D6B00C3DBB9 /* ubertooth_control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ubertooth_control.h; sourceTree = "<group>"; };
+		67AA19AE18382D6B00C3DBB9 /* ubertooth_interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ubertooth_interface.h; sourceTree = "<group>"; };
+		67AA19B018382D6B00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA19B218382D6B00C3DBB9 /* Ubertooth-adv.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "Ubertooth-adv.py"; sourceTree = "<group>"; };
+		67AA19B318382D6B00C3DBB9 /* Ubertooth-replay.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "Ubertooth-replay.py"; sourceTree = "<group>"; };
+		67AA19B418382D6B00C3DBB9 /* Ubertooth.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Ubertooth.py; sourceTree = "<group>"; };
+		67AA19B518382D6B00C3DBB9 /* Ubertooth.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ubertooth.pyc; sourceTree = "<group>"; };
+		67AA19B618382D6B00C3DBB9 /* kevo-token.pcap */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kevo-token.pcap"; sourceTree = "<group>"; };
+		67AA19B718382D6B00C3DBB9 /* pairingtest.pcap */ = {isa = PBXFileReference; lastKnownFileType = file; path = pairingtest.pcap; sourceTree = "<group>"; };
+		67AA19B918382D6B00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA19BA18382D6B00C3DBB9 /* btle-extcap.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "btle-extcap.py"; sourceTree = "<group>"; };
+		67AA19BC18382D6B00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA19BD18382D6B00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA19C118382D6B00C3DBB9 /* Ubertooth.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Ubertooth.py; sourceTree = "<group>"; };
+		67AA19C218382D6B00C3DBB9 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		67AA19C318382D6B00C3DBB9 /* setup.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		67AA19C418382D6B00C3DBB9 /* setup.py.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = setup.py.in; sourceTree = "<group>"; };
+		67AA19C618382D6B00C3DBB9 /* Ubertooth.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = Ubertooth.py; sourceTree = "<group>"; };
+		67AA19C718382D6B00C3DBB9 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		67AA19C818382D6B00C3DBB9 /* ubertooth-specan-ui */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-specan-ui"; sourceTree = "<group>"; };
+		67AA19CA18382D6B00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA19CB18382D6B00C3DBB9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		67AA19CC18382D6B00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		67AA19CE18382D6B00C3DBB9 /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		67AA19CF18382D6B00C3DBB9 /* __init__.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = __init__.pyc; sourceTree = "<group>"; };
+		67AA19D018382D6B00C3DBB9 /* dfu.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = dfu.py; sourceTree = "<group>"; };
+		67AA19D118382D6B00C3DBB9 /* dfu.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = dfu.pyc; sourceTree = "<group>"; };
+		67AA19D218382D6B00C3DBB9 /* setup.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		67AA19D318382D6B00C3DBB9 /* setup.py.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = setup.py.in; sourceTree = "<group>"; };
+		67AA19D418382D6B00C3DBB9 /* ubertooth-dfu */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-dfu"; sourceTree = "<group>"; };
+		67AA19D618382D6B00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA19D818382D6B00C3DBB9 /* getopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		67AA19D918382D6B00C3DBB9 /* getopt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getopt.h; sourceTree = "<group>"; };
+		67AA19DB18382D6B00C3DBB9 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		67AA19DC18382D6B00C3DBB9 /* arglist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = arglist.c; sourceTree = "<group>"; };
+		67AA19DD18382D6B00C3DBB9 /* arglist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arglist.h; sourceTree = "<group>"; };
+		67AA19DE18382D6B00C3DBB9 /* cc2400.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cc2400.c; sourceTree = "<group>"; };
+		67AA19DF18382D6B00C3DBB9 /* cc2400.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cc2400.h; sourceTree = "<group>"; };
+		67AA19E018382D6B00C3DBB9 /* ubertooth-btle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-btle.c"; sourceTree = "<group>"; };
+		67AA19E118382D6B00C3DBB9 /* ubertooth-debug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-debug.c"; sourceTree = "<group>"; };
+		67AA19E218382D6B00C3DBB9 /* ubertooth-dump.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-dump.c"; sourceTree = "<group>"; };
+		67AA19E318382D6B00C3DBB9 /* ubertooth-follow.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-follow.c"; sourceTree = "<group>"; };
+		67AA19E418382D6B00C3DBB9 /* ubertooth-rx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-rx.c"; sourceTree = "<group>"; };
+		67AA19E518382D6B00C3DBB9 /* ubertooth-scan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-scan.c"; sourceTree = "<group>"; };
+		67AA19E618382D6B00C3DBB9 /* ubertooth-specan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-specan.c"; sourceTree = "<group>"; };
+		67AA19E718382D6B00C3DBB9 /* ubertooth-util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ubertooth-util.c"; sourceTree = "<group>"; };
+		67AA19E818382D6B00C3DBB9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = ../README; sourceTree = "<group>"; };
+		67AA19EA18382D6B00C3DBB9 /* RELEASENOTES */ = {isa = PBXFileReference; lastKnownFileType = text; path = RELEASENOTES; sourceTree = "<group>"; };
+		67AA19EB18382D6B00C3DBB9 /* ubertooth-release.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "ubertooth-release.sh"; sourceTree = "<group>"; };
+		67AA19EC18382D6B00C3DBB9 /* ubertooth-release.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ubertooth-release.txt"; sourceTree = "<group>"; };
+		67AA19ED18382D6B00C3DBB9 /* TRADEMARK */ = {isa = PBXFileReference; lastKnownFileType = text; name = TRADEMARK; path = ../TRADEMARK; sourceTree = "<group>"; };
+		67AA19EF18382D6B00C3DBB9 /* ubertooth.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ubertooth.xcodeproj; sourceTree = "<group>"; };
+		67AA19F218382F8600C3DBB9 /* dma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dma.c; sourceTree = "<group>"; };
+		67AA19F318382FBC00C3DBB9 /* bluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bluetooth.h; sourceTree = "<group>"; };
+		67AA19F418382FC400C3DBB9 /* dma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dma.h; sourceTree = "<group>"; };
+		67AA19F61838300600C3DBB9 /* bluetooth-ioa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bluetooth-ioa.h"; sourceTree = "<group>"; };
+		67AA19F71838301500C3DBB9 /* bluetooth_le.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bluetooth_le.h; sourceTree = "<group>"; };
+		67AA19F81838302F00C3DBB9 /* cc2400.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cc2400.h; sourceTree = "<group>"; };
+		67AA19F91838304B00C3DBB9 /* ubertooth_usb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ubertooth_usb.h; sourceTree = "<group>"; };
+		67AA19FA1838317000C3DBB9 /* ubertooth_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ubertooth_util.c; sourceTree = "<group>"; };
+		67AA19FB1838348600C3DBB9 /* ubertooth_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ubertooth_util.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		67AA165E18382D2800C3DBB9 = {
+			isa = PBXGroup;
+			children = (
+				67AA183F18382D6A00C3DBB9 /* firmware */,
+				67AA193618382D6A00C3DBB9 /* hardware */,
+				67AA197D18382D6A00C3DBB9 /* host */,
+				67AA19E818382D6B00C3DBB9 /* README */,
+				67AA19E918382D6B00C3DBB9 /* tools */,
+				67AA19ED18382D6B00C3DBB9 /* TRADEMARK */,
+				67AA19EE18382D6B00C3DBB9 /* ubertooth */,
+				67AA166918382D4500C3DBB9 /* web */,
+			);
+			sourceTree = "<group>";
+		};
+		67AA166918382D4500C3DBB9 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				67AA168C18382D5F00C3DBB9 /* firmware */,
+				67AA178318382D5F00C3DBB9 /* hardware */,
+				67AA17CA18382D5F00C3DBB9 /* host */,
+				67AA183518382D5F00C3DBB9 /* README */,
+				67AA183618382D5F00C3DBB9 /* tools */,
+				67AA183A18382D5F00C3DBB9 /* TRADEMARK */,
+				67AA183B18382D5F00C3DBB9 /* ubertooth */,
+				67AA166A18382D4500C3DBB9 /* Makefile */,
+				67AA166B18382D4500C3DBB9 /* README */,
+				67AA166C18382D4500C3DBB9 /* Rakefile */,
+				67AA166D18382D4500C3DBB9 /* Rules */,
+				67AA166E18382D4500C3DBB9 /* config.yaml */,
+				67AA166F18382D4500C3DBB9 /* content */,
+				67AA168818382D4500C3DBB9 /* layouts */,
+				67AA168A18382D4500C3DBB9 /* lib */,
+			);
+			name = web;
+			path = ../web;
+			sourceTree = "<group>";
+		};
+		67AA166F18382D4500C3DBB9 /* content */ = {
+			isa = PBXGroup;
+			children = (
+				67AA167018382D4500C3DBB9 /* firmware */,
+				67AA167218382D4500C3DBB9 /* hardware */,
+				67AA167718382D4500C3DBB9 /* host */,
+				67AA167918382D4500C3DBB9 /* images */,
+				67AA168318382D4500C3DBB9 /* index.html */,
+				67AA168418382D4500C3DBB9 /* stylesheet.css */,
+				67AA168518382D4500C3DBB9 /* usage */,
+			);
+			path = content;
+			sourceTree = "<group>";
+		};
+		67AA167018382D4500C3DBB9 /* firmware */ = {
+			isa = PBXGroup;
+			children = (
+				67AA167118382D4500C3DBB9 /* develop.html */,
+			);
+			path = firmware;
+			sourceTree = "<group>";
+		};
+		67AA167218382D4500C3DBB9 /* hardware */ = {
+			isa = PBXGroup;
+			children = (
+				67AA167318382D4500C3DBB9 /* build.html */,
+				67AA167418382D4500C3DBB9 /* one.html */,
+				67AA167518382D4500C3DBB9 /* program.html */,
+				67AA167618382D4500C3DBB9 /* zero.html */,
+			);
+			path = hardware;
+			sourceTree = "<group>";
+		};
+		67AA167718382D4500C3DBB9 /* host */ = {
+			isa = PBXGroup;
+			children = (
+				67AA167818382D4500C3DBB9 /* develop.html */,
+			);
+			path = host;
+			sourceTree = "<group>";
+		};
+		67AA167918382D4500C3DBB9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				67AA167A18382D4500C3DBB9 /* kismet.png */,
+				67AA167B18382D4500C3DBB9 /* pogoprog-placement.jpeg */,
+				67AA167C18382D4500C3DBB9 /* pogoprog.jpeg */,
+				67AA167D18382D4500C3DBB9 /* specan_ui.png */,
+				67AA167E18382D4500C3DBB9 /* u1_roadmap.png */,
+				67AA167F18382D4500C3DBB9 /* ubertooth-lap.png */,
+				67AA168018382D4500C3DBB9 /* ubertooth-one-zero.jpeg */,
+				67AA168118382D4500C3DBB9 /* ubertooth-one.jpeg */,
+				67AA168218382D4500C3DBB9 /* ubertooth-zero.jpeg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		67AA168518382D4500C3DBB9 /* usage */ = {
+			isa = PBXGroup;
+			children = (
+				67AA168618382D4500C3DBB9 /* build.html */,
+				67AA168718382D4500C3DBB9 /* start.html */,
+			);
+			path = usage;
+			sourceTree = "<group>";
+		};
+		67AA168818382D4500C3DBB9 /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				67AA168918382D4500C3DBB9 /* default.html */,
+			);
+			path = layouts;
+			sourceTree = "<group>";
+		};
+		67AA168A18382D4500C3DBB9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				67AA168B18382D4500C3DBB9 /* default.rb */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		67AA168C18382D5F00C3DBB9 /* firmware */ = {
+			isa = PBXGroup;
+			children = (
+				67AA168D18382D5F00C3DBB9 /* Makefile */,
+				67AA168E18382D5F00C3DBB9 /* README */,
+				67AA168F18382D5F00C3DBB9 /* assembly_test */,
+				67AA169E18382D5F00C3DBB9 /* blinky */,
+				67AA16AD18382D5F00C3DBB9 /* bluetooth_rxtx */,
+				67AA16D118382D5F00C3DBB9 /* bootloader */,
+				67AA16EA18382D5F00C3DBB9 /* cc2400_test */,
+				67AA16F918382D5F00C3DBB9 /* clock_test */,
+				67AA170818382D5F00C3DBB9 /* common */,
+				67AA174018382D5F00C3DBB9 /* common.mk */,
+				67AA174118382D5F00C3DBB9 /* ioatest */,
+				67AA176718382D5F00C3DBB9 /* tc13badge */,
+				67AA177418382D5F00C3DBB9 /* usb_test */,
+			);
+			name = firmware;
+			path = ../firmware;
+			sourceTree = "<group>";
+		};
+		67AA168F18382D5F00C3DBB9 /* assembly_test */ = {
+			isa = PBXGroup;
+			children = (
+				67AA169018382D5F00C3DBB9 /* Makefile */,
+				67AA169118382D5F00C3DBB9 /* README */,
+				67AA169218382D5F00C3DBB9 /* assembly_test.bin */,
+				67AA169318382D5F00C3DBB9 /* assembly_test.c */,
+				67AA169418382D5F00C3DBB9 /* assembly_test.d */,
+				67AA169518382D5F00C3DBB9 /* assembly_test.dfu */,
+				67AA169618382D5F00C3DBB9 /* assembly_test.elf */,
+				67AA169718382D5F00C3DBB9 /* assembly_test.hex */,
+				67AA169818382D5F00C3DBB9 /* assembly_test.lss */,
+				67AA169918382D5F00C3DBB9 /* assembly_test.lst */,
+				67AA169A18382D5F00C3DBB9 /* assembly_test.map */,
+				67AA169B18382D5F00C3DBB9 /* assembly_test.o */,
+				67AA169C18382D5F00C3DBB9 /* assembly_test.srec */,
+				67AA169D18382D5F00C3DBB9 /* assembly_test.sym */,
+			);
+			path = assembly_test;
+			sourceTree = "<group>";
+		};
+		67AA169E18382D5F00C3DBB9 /* blinky */ = {
+			isa = PBXGroup;
+			children = (
+				67AA169F18382D5F00C3DBB9 /* Makefile */,
+				67AA16A018382D5F00C3DBB9 /* README */,
+				67AA16A118382D5F00C3DBB9 /* blinky.bin */,
+				67AA16A218382D5F00C3DBB9 /* blinky.c */,
+				67AA16A318382D5F00C3DBB9 /* blinky.d */,
+				67AA16A418382D5F00C3DBB9 /* blinky.dfu */,
+				67AA16A518382D5F00C3DBB9 /* blinky.elf */,
+				67AA16A618382D5F00C3DBB9 /* blinky.hex */,
+				67AA16A718382D5F00C3DBB9 /* blinky.lss */,
+				67AA16A818382D5F00C3DBB9 /* blinky.lst */,
+				67AA16A918382D5F00C3DBB9 /* blinky.map */,
+				67AA16AA18382D5F00C3DBB9 /* blinky.o */,
+				67AA16AB18382D5F00C3DBB9 /* blinky.srec */,
+				67AA16AC18382D5F00C3DBB9 /* blinky.sym */,
+			);
+			path = blinky;
+			sourceTree = "<group>";
+		};
+		67AA16AD18382D5F00C3DBB9 /* bluetooth_rxtx */ = {
+			isa = PBXGroup;
+			children = (
+				67AA16AE18382D5F00C3DBB9 /* Makefile */,
+				67AA16AF18382D5F00C3DBB9 /* README */,
+				67AA16B018382D5F00C3DBB9 /* bluetooth.c */,
+				67AA16B118382D5F00C3DBB9 /* bluetooth.d */,
+				67AA16B218382D5F00C3DBB9 /* bluetooth.h */,
+				67AA16B318382D5F00C3DBB9 /* bluetooth.lst */,
+				67AA16B418382D5F00C3DBB9 /* bluetooth.o */,
+				67AA16B518382D5F00C3DBB9 /* bluetooth_le.c */,
+				67AA16B618382D5F00C3DBB9 /* bluetooth_le.d */,
+				67AA16B718382D5F00C3DBB9 /* bluetooth_le.h */,
+				67AA16B818382D5F00C3DBB9 /* bluetooth_le.lst */,
+				67AA16B918382D5F00C3DBB9 /* bluetooth_le.o */,
+				67AA16BA18382D5F00C3DBB9 /* bluetooth_rxtx.bin */,
+				67AA16BB18382D5F00C3DBB9 /* bluetooth_rxtx.c */,
+				67AA16BC18382D5F00C3DBB9 /* bluetooth_rxtx.d */,
+				67AA16BD18382D5F00C3DBB9 /* bluetooth_rxtx.dfu */,
+				67AA16BE18382D5F00C3DBB9 /* bluetooth_rxtx.elf */,
+				67AA16BF18382D5F00C3DBB9 /* bluetooth_rxtx.hex */,
+				67AA16C018382D5F00C3DBB9 /* bluetooth_rxtx.lss */,
+				67AA16C118382D5F00C3DBB9 /* bluetooth_rxtx.lst */,
+				67AA16C218382D5F00C3DBB9 /* bluetooth_rxtx.map */,
+				67AA16C318382D5F00C3DBB9 /* bluetooth_rxtx.o */,
+				67AA16C418382D5F00C3DBB9 /* bluetooth_rxtx.srec */,
+				67AA16C518382D5F00C3DBB9 /* bluetooth_rxtx.sym */,
+				67AA16C618382D5F00C3DBB9 /* cc2400_rangetest.c */,
+				67AA16C718382D5F00C3DBB9 /* cc2400_rangetest.d */,
+				67AA16C818382D5F00C3DBB9 /* cc2400_rangetest.h */,
+				67AA16C918382D5F00C3DBB9 /* cc2400_rangetest.lst */,
+				67AA16CA18382D5F00C3DBB9 /* cc2400_rangetest.o */,
+				67AA16CB18382D5F00C3DBB9 /* hop_increment */,
+				67AA16CC18382D5F00C3DBB9 /* ubertooth_usb.c */,
+				67AA16CD18382D5F00C3DBB9 /* ubertooth_usb.d */,
+				67AA16CE18382D5F00C3DBB9 /* ubertooth_usb.h */,
+				67AA16CF18382D5F00C3DBB9 /* ubertooth_usb.lst */,
+				67AA16D018382D5F00C3DBB9 /* ubertooth_usb.o */,
+			);
+			path = bluetooth_rxtx;
+			sourceTree = "<group>";
+		};
+		67AA16D118382D5F00C3DBB9 /* bootloader */ = {
+			isa = PBXGroup;
+			children = (
+				67AA16D218382D5F00C3DBB9 /* Makefile */,
+				67AA16D318382D5F00C3DBB9 /* README */,
+				67AA16D418382D5F00C3DBB9 /* bootloader.bin */,
+				67AA16D518382D5F00C3DBB9 /* bootloader.cpp */,
+				67AA16D618382D5F00C3DBB9 /* bootloader.d */,
+				67AA16D718382D5F00C3DBB9 /* bootloader.elf */,
+				67AA16D818382D5F00C3DBB9 /* bootloader.hex */,
+				67AA16D918382D5F00C3DBB9 /* bootloader.lss */,
+				67AA16DA18382D5F00C3DBB9 /* bootloader.lst */,
+				67AA16DB18382D5F00C3DBB9 /* bootloader.map */,
+				67AA16DC18382D5F00C3DBB9 /* bootloader.o */,
+				67AA16DD18382D5F00C3DBB9 /* bootloader.srec */,
+				67AA16DE18382D5F00C3DBB9 /* bootloader.sym */,
+				67AA16DF18382D5F00C3DBB9 /* dfu.cpp */,
+				67AA16E018382D5F00C3DBB9 /* dfu.d */,
+				67AA16E118382D5F00C3DBB9 /* dfu.h */,
+				67AA16E218382D5F00C3DBB9 /* dfu.lst */,
+				67AA16E318382D5F00C3DBB9 /* dfu.o */,
+				67AA16E418382D5F00C3DBB9 /* flash.h */,
+				67AA16E518382D5F00C3DBB9 /* iap.cpp */,
+				67AA16E618382D5F00C3DBB9 /* iap.d */,
+				67AA16E718382D5F00C3DBB9 /* iap.h */,
+				67AA16E818382D5F00C3DBB9 /* iap.lst */,
+				67AA16E918382D5F00C3DBB9 /* iap.o */,
+			);
+			path = bootloader;
+			sourceTree = "<group>";
+		};
+		67AA16EA18382D5F00C3DBB9 /* cc2400_test */ = {
+			isa = PBXGroup;
+			children = (
+				67AA16EB18382D5F00C3DBB9 /* Makefile */,
+				67AA16EC18382D5F00C3DBB9 /* README */,
+				67AA16ED18382D5F00C3DBB9 /* cc2400_test.bin */,
+				67AA16EE18382D5F00C3DBB9 /* cc2400_test.c */,
+				67AA16EF18382D5F00C3DBB9 /* cc2400_test.d */,
+				67AA16F018382D5F00C3DBB9 /* cc2400_test.dfu */,
+				67AA16F118382D5F00C3DBB9 /* cc2400_test.elf */,
+				67AA16F218382D5F00C3DBB9 /* cc2400_test.hex */,
+				67AA16F318382D5F00C3DBB9 /* cc2400_test.lss */,
+				67AA16F418382D5F00C3DBB9 /* cc2400_test.lst */,
+				67AA16F518382D5F00C3DBB9 /* cc2400_test.map */,
+				67AA16F618382D5F00C3DBB9 /* cc2400_test.o */,
+				67AA16F718382D5F00C3DBB9 /* cc2400_test.srec */,
+				67AA16F818382D5F00C3DBB9 /* cc2400_test.sym */,
+			);
+			path = cc2400_test;
+			sourceTree = "<group>";
+		};
+		67AA16F918382D5F00C3DBB9 /* clock_test */ = {
+			isa = PBXGroup;
+			children = (
+				67AA16FA18382D5F00C3DBB9 /* Makefile */,
+				67AA16FB18382D5F00C3DBB9 /* README */,
+				67AA16FC18382D5F00C3DBB9 /* clock_test.bin */,
+				67AA16FD18382D5F00C3DBB9 /* clock_test.c */,
+				67AA16FE18382D5F00C3DBB9 /* clock_test.d */,
+				67AA16FF18382D5F00C3DBB9 /* clock_test.dfu */,
+				67AA170018382D5F00C3DBB9 /* clock_test.elf */,
+				67AA170118382D5F00C3DBB9 /* clock_test.hex */,
+				67AA170218382D5F00C3DBB9 /* clock_test.lss */,
+				67AA170318382D5F00C3DBB9 /* clock_test.lst */,
+				67AA170418382D5F00C3DBB9 /* clock_test.map */,
+				67AA170518382D5F00C3DBB9 /* clock_test.o */,
+				67AA170618382D5F00C3DBB9 /* clock_test.srec */,
+				67AA170718382D5F00C3DBB9 /* clock_test.sym */,
+			);
+			path = clock_test;
+			sourceTree = "<group>";
+		};
+		67AA170818382D5F00C3DBB9 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				67AA170918382D5F00C3DBB9 /* LPC17xx_Interrupts.c */,
+				67AA170A18382D5F00C3DBB9 /* LPC17xx_Interrupts.d */,
+				67AA170B18382D5F00C3DBB9 /* LPC17xx_Interrupts.lst */,
+				67AA170C18382D5F00C3DBB9 /* LPC17xx_Interrupts.o */,
+				67AA170D18382D5F00C3DBB9 /* LPC17xx_Linker_Script_bootloader.ld */,
+				67AA170E18382D5F00C3DBB9 /* LPC17xx_Linker_Script_with_bootloader.ld */,
+				67AA170F18382D5F00C3DBB9 /* LPC17xx_Linker_Script_without_bootloader.ld */,
+				67AA171018382D5F00C3DBB9 /* LPC17xx_Startup.c */,
+				67AA171118382D5F00C3DBB9 /* LPC17xx_Startup.d */,
+				67AA171218382D5F00C3DBB9 /* LPC17xx_Startup.lst */,
+				67AA171318382D5F00C3DBB9 /* LPC17xx_Startup.o */,
+				67AA171418382D5F00C3DBB9 /* README */,
+				67AA171518382D5F00C3DBB9 /* cc2400.h */,
+				67AA171618382D5F00C3DBB9 /* lpc17.h */,
+				67AA171718382D5F00C3DBB9 /* lpcusb */,
+				67AA172F18382D5F00C3DBB9 /* sections.ld */,
+				67AA173018382D5F00C3DBB9 /* serial_fifo.c */,
+				67AA173118382D5F00C3DBB9 /* serial_fifo.d */,
+				67AA173218382D5F00C3DBB9 /* serial_fifo.h */,
+				67AA173318382D5F00C3DBB9 /* serial_fifo.lst */,
+				67AA173418382D5F00C3DBB9 /* serial_fifo.o */,
+				67AA173518382D5F00C3DBB9 /* types.h */,
+				67AA173618382D5F00C3DBB9 /* ubertooth.c */,
+				67AA173718382D5F00C3DBB9 /* ubertooth.d */,
+				67AA173818382D5F00C3DBB9 /* ubertooth.h */,
+				67AA173918382D5F00C3DBB9 /* ubertooth.lst */,
+				67AA173A18382D5F00C3DBB9 /* ubertooth.o */,
+				67AA173B18382D5F00C3DBB9 /* usb_serial.c */,
+				67AA173C18382D5F00C3DBB9 /* usb_serial.d */,
+				67AA173D18382D5F00C3DBB9 /* usb_serial.h */,
+				67AA173E18382D5F00C3DBB9 /* usb_serial.lst */,
+				67AA173F18382D5F00C3DBB9 /* usb_serial.o */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		67AA171718382D5F00C3DBB9 /* lpcusb */ = {
+			isa = PBXGroup;
+			children = (
+				67AA171818382D5F00C3DBB9 /* README */,
+				67AA171918382D5F00C3DBB9 /* target */,
+			);
+			path = lpcusb;
+			sourceTree = "<group>";
+		};
+		67AA171918382D5F00C3DBB9 /* target */ = {
+			isa = PBXGroup;
+			children = (
+				67AA171A18382D5F00C3DBB9 /* debug.h */,
+				67AA171B18382D5F00C3DBB9 /* type.h */,
+				67AA171C18382D5F00C3DBB9 /* usbapi.h */,
+				67AA171D18382D5F00C3DBB9 /* usbcontrol.c */,
+				67AA171E18382D5F00C3DBB9 /* usbcontrol.d */,
+				67AA171F18382D5F00C3DBB9 /* usbcontrol.lst */,
+				67AA172018382D5F00C3DBB9 /* usbcontrol.o */,
+				67AA172118382D5F00C3DBB9 /* usbhw_lpc.c */,
+				67AA172218382D5F00C3DBB9 /* usbhw_lpc.d */,
+				67AA172318382D5F00C3DBB9 /* usbhw_lpc.h */,
+				67AA172418382D5F00C3DBB9 /* usbhw_lpc.lst */,
+				67AA172518382D5F00C3DBB9 /* usbhw_lpc.o */,
+				67AA172618382D5F00C3DBB9 /* usbinit.c */,
+				67AA172718382D5F00C3DBB9 /* usbinit.d */,
+				67AA172818382D5F00C3DBB9 /* usbinit.lst */,
+				67AA172918382D5F00C3DBB9 /* usbinit.o */,
+				67AA172A18382D5F00C3DBB9 /* usbstdreq.c */,
+				67AA172B18382D5F00C3DBB9 /* usbstdreq.d */,
+				67AA172C18382D5F00C3DBB9 /* usbstdreq.lst */,
+				67AA172D18382D5F00C3DBB9 /* usbstdreq.o */,
+				67AA172E18382D5F00C3DBB9 /* usbstruct.h */,
+			);
+			path = target;
+			sourceTree = "<group>";
+		};
+		67AA174118382D5F00C3DBB9 /* ioatest */ = {
+			isa = PBXGroup;
+			children = (
+				67AA174218382D5F00C3DBB9 /* Makefile */,
+				67AA174318382D5F00C3DBB9 /* README */,
+				67AA174418382D5F00C3DBB9 /* bluetooth-ioa.c */,
+				67AA174518382D5F00C3DBB9 /* bluetooth.c */,
+				67AA174618382D5F00C3DBB9 /* bluetooth.d */,
+				67AA174718382D5F00C3DBB9 /* bluetooth.h */,
+				67AA174818382D5F00C3DBB9 /* bluetooth.lst */,
+				67AA174918382D5F00C3DBB9 /* bluetooth.o */,
+				67AA174A18382D5F00C3DBB9 /* bluetooth_le.c */,
+				67AA174B18382D5F00C3DBB9 /* bluetooth_le.d */,
+				67AA174C18382D5F00C3DBB9 /* bluetooth_le.h */,
+				67AA174D18382D5F00C3DBB9 /* bluetooth_le.lst */,
+				67AA174E18382D5F00C3DBB9 /* bluetooth_le.o */,
+				67AA174F18382D5F00C3DBB9 /* bluetooth_rxtx.bin */,
+				67AA175018382D5F00C3DBB9 /* bluetooth_rxtx.c */,
+				67AA175118382D5F00C3DBB9 /* bluetooth_rxtx.d */,
+				67AA175218382D5F00C3DBB9 /* bluetooth_rxtx.dfu */,
+				67AA175318382D5F00C3DBB9 /* bluetooth_rxtx.elf */,
+				67AA175418382D5F00C3DBB9 /* bluetooth_rxtx.hex */,
+				67AA175518382D5F00C3DBB9 /* bluetooth_rxtx.lss */,
+				67AA175618382D5F00C3DBB9 /* bluetooth_rxtx.lst */,
+				67AA175718382D5F00C3DBB9 /* bluetooth_rxtx.map */,
+				67AA175818382D5F00C3DBB9 /* bluetooth_rxtx.o */,
+				67AA175918382D5F00C3DBB9 /* bluetooth_rxtx.srec */,
+				67AA175A18382D5F00C3DBB9 /* bluetooth_rxtx.sym */,
+				67AA175B18382D5F00C3DBB9 /* btle.c */,
+				67AA175C18382D5F00C3DBB9 /* cc2400.c */,
+				67AA175D18382D5F00C3DBB9 /* cc2400_rangetest.c */,
+				67AA175E18382D5F00C3DBB9 /* cc2400_rangetest.d */,
+				67AA175F18382D5F00C3DBB9 /* cc2400_rangetest.h */,
+				67AA176018382D5F00C3DBB9 /* cc2400_rangetest.lst */,
+				67AA176118382D5F00C3DBB9 /* cc2400_rangetest.o */,
+				67AA176218382D5F00C3DBB9 /* ubertooth_usb.c */,
+				67AA176318382D5F00C3DBB9 /* ubertooth_usb.d */,
+				67AA176418382D5F00C3DBB9 /* ubertooth_usb.h */,
+				67AA176518382D5F00C3DBB9 /* ubertooth_usb.lst */,
+				67AA176618382D5F00C3DBB9 /* ubertooth_usb.o */,
+			);
+			path = ioatest;
+			sourceTree = "<group>";
+		};
+		67AA176718382D5F00C3DBB9 /* tc13badge */ = {
+			isa = PBXGroup;
+			children = (
+				67AA176818382D5F00C3DBB9 /* Makefile */,
+				67AA176918382D5F00C3DBB9 /* R5F212L4.ld */,
+				67AA176A18382D5F00C3DBB9 /* README */,
+				67AA176B18382D5F00C3DBB9 /* bitmaps.h */,
+				67AA176C18382D5F00C3DBB9 /* cc2400.h */,
+				67AA176D18382D5F00C3DBB9 /* init.S */,
+				67AA176E18382D5F00C3DBB9 /* ivects.S */,
+				67AA176F18382D5F00C3DBB9 /* mkports */,
+				67AA177018382D5F00C3DBB9 /* r8c2l.io */,
+				67AA177118382D5F00C3DBB9 /* tc13badge.c */,
+				67AA177218382D5F00C3DBB9 /* tc13badge.h */,
+				67AA177318382D5F00C3DBB9 /* toorcon.c */,
+			);
+			path = tc13badge;
+			sourceTree = "<group>";
+		};
+		67AA177418382D5F00C3DBB9 /* usb_test */ = {
+			isa = PBXGroup;
+			children = (
+				67AA177518382D5F00C3DBB9 /* Makefile */,
+				67AA177618382D5F00C3DBB9 /* README */,
+				67AA177718382D5F00C3DBB9 /* usb_test.bin */,
+				67AA177818382D5F00C3DBB9 /* usb_test.c */,
+				67AA177918382D5F00C3DBB9 /* usb_test.d */,
+				67AA177A18382D5F00C3DBB9 /* usb_test.dfu */,
+				67AA177B18382D5F00C3DBB9 /* usb_test.elf */,
+				67AA177C18382D5F00C3DBB9 /* usb_test.hex */,
+				67AA177D18382D5F00C3DBB9 /* usb_test.lss */,
+				67AA177E18382D5F00C3DBB9 /* usb_test.lst */,
+				67AA177F18382D5F00C3DBB9 /* usb_test.map */,
+				67AA178018382D5F00C3DBB9 /* usb_test.o */,
+				67AA178118382D5F00C3DBB9 /* usb_test.srec */,
+				67AA178218382D5F00C3DBB9 /* usb_test.sym */,
+			);
+			path = usb_test;
+			sourceTree = "<group>";
+		};
+		67AA178318382D5F00C3DBB9 /* hardware */ = {
+			isa = PBXGroup;
+			children = (
+				67AA178418382D5F00C3DBB9 /* artichoke */,
+				67AA178D18382D5F00C3DBB9 /* broccoli */,
+				67AA179618382D5F00C3DBB9 /* celery */,
+				67AA179F18382D5F00C3DBB9 /* endive */,
+				67AA17A718382D5F00C3DBB9 /* kicad */,
+				67AA17AC18382D5F00C3DBB9 /* pogoprog */,
+				67AA17B318382D5F00C3DBB9 /* tc13badge */,
+				67AA17BC18382D5F00C3DBB9 /* ubertooth-one */,
+				67AA17C518382D5F00C3DBB9 /* ubertooth-zero */,
+			);
+			name = hardware;
+			path = ../hardware;
+			sourceTree = "<group>";
+		};
+		67AA178418382D5F00C3DBB9 /* artichoke */ = {
+			isa = PBXGroup;
+			children = (
+				67AA178518382D5F00C3DBB9 /* README */,
+				67AA178618382D5F00C3DBB9 /* artichoke */,
+				67AA178718382D5F00C3DBB9 /* artichoke-cache.lib */,
+				67AA178818382D5F00C3DBB9 /* artichoke.brd */,
+				67AA178918382D5F00C3DBB9 /* artichoke.cmp */,
+				67AA178A18382D5F00C3DBB9 /* artichoke.net */,
+				67AA178B18382D5F00C3DBB9 /* artichoke.pro */,
+				67AA178C18382D5F00C3DBB9 /* artichoke.sch */,
+			);
+			path = artichoke;
+			sourceTree = "<group>";
+		};
+		67AA178D18382D5F00C3DBB9 /* broccoli */ = {
+			isa = PBXGroup;
+			children = (
+				67AA178E18382D5F00C3DBB9 /* README */,
+				67AA178F18382D5F00C3DBB9 /* broccoli */,
+				67AA179018382D5F00C3DBB9 /* broccoli-cache.lib */,
+				67AA179118382D5F00C3DBB9 /* broccoli.brd */,
+				67AA179218382D5F00C3DBB9 /* broccoli.cmp */,
+				67AA179318382D5F00C3DBB9 /* broccoli.net */,
+				67AA179418382D5F00C3DBB9 /* broccoli.pro */,
+				67AA179518382D5F00C3DBB9 /* broccoli.sch */,
+			);
+			path = broccoli;
+			sourceTree = "<group>";
+		};
+		67AA179618382D5F00C3DBB9 /* celery */ = {
+			isa = PBXGroup;
+			children = (
+				67AA179718382D5F00C3DBB9 /* README */,
+				67AA179818382D5F00C3DBB9 /* celery */,
+				67AA179918382D5F00C3DBB9 /* celery-cache.lib */,
+				67AA179A18382D5F00C3DBB9 /* celery.brd */,
+				67AA179B18382D5F00C3DBB9 /* celery.cmp */,
+				67AA179C18382D5F00C3DBB9 /* celery.net */,
+				67AA179D18382D5F00C3DBB9 /* celery.pro */,
+				67AA179E18382D5F00C3DBB9 /* celery.sch */,
+			);
+			path = celery;
+			sourceTree = "<group>";
+		};
+		67AA179F18382D5F00C3DBB9 /* endive */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17A018382D5F00C3DBB9 /* README */,
+				67AA17A118382D5F00C3DBB9 /* endive-cache.lib */,
+				67AA17A218382D5F00C3DBB9 /* endive.brd */,
+				67AA17A318382D5F00C3DBB9 /* endive.cmp */,
+				67AA17A418382D5F00C3DBB9 /* endive.net */,
+				67AA17A518382D5F00C3DBB9 /* endive.pro */,
+				67AA17A618382D5F00C3DBB9 /* endive.sch */,
+			);
+			path = endive;
+			sourceTree = "<group>";
+		};
+		67AA17A718382D5F00C3DBB9 /* kicad */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17A818382D5F00C3DBB9 /* ubertooth-symbols.dcm */,
+				67AA17A918382D5F00C3DBB9 /* ubertooth-symbols.lib */,
+				67AA17AA18382D5F00C3DBB9 /* ubertooth.mdc */,
+				67AA17AB18382D5F00C3DBB9 /* ubertooth.mod */,
+			);
+			path = kicad;
+			sourceTree = "<group>";
+		};
+		67AA17AC18382D5F00C3DBB9 /* pogoprog */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17AD18382D5F00C3DBB9 /* pogoprog-cache.lib */,
+				67AA17AE18382D5F00C3DBB9 /* pogoprog.brd */,
+				67AA17AF18382D5F00C3DBB9 /* pogoprog.cmp */,
+				67AA17B018382D5F00C3DBB9 /* pogoprog.net */,
+				67AA17B118382D5F00C3DBB9 /* pogoprog.pro */,
+				67AA17B218382D5F00C3DBB9 /* pogoprog.sch */,
+			);
+			path = pogoprog;
+			sourceTree = "<group>";
+		};
+		67AA17B318382D5F00C3DBB9 /* tc13badge */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17B418382D5F00C3DBB9 /* README */,
+				67AA17B518382D5F00C3DBB9 /* tc13badge */,
+				67AA17B618382D5F00C3DBB9 /* tc13badge-cache.lib */,
+				67AA17B718382D5F00C3DBB9 /* tc13badge.brd */,
+				67AA17B818382D5F00C3DBB9 /* tc13badge.cmp */,
+				67AA17B918382D5F00C3DBB9 /* tc13badge.net */,
+				67AA17BA18382D5F00C3DBB9 /* tc13badge.pro */,
+				67AA17BB18382D5F00C3DBB9 /* tc13badge.sch */,
+			);
+			path = tc13badge;
+			sourceTree = "<group>";
+		};
+		67AA17BC18382D5F00C3DBB9 /* ubertooth-one */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17BD18382D5F00C3DBB9 /* README */,
+				67AA17BE18382D5F00C3DBB9 /* ubertooth-one */,
+				67AA17BF18382D5F00C3DBB9 /* ubertooth-one-cache.lib */,
+				67AA17C018382D5F00C3DBB9 /* ubertooth-one.brd */,
+				67AA17C118382D5F00C3DBB9 /* ubertooth-one.cmp */,
+				67AA17C218382D5F00C3DBB9 /* ubertooth-one.net */,
+				67AA17C318382D5F00C3DBB9 /* ubertooth-one.pro */,
+				67AA17C418382D5F00C3DBB9 /* ubertooth-one.sch */,
+			);
+			path = "ubertooth-one";
+			sourceTree = "<group>";
+		};
+		67AA17C518382D5F00C3DBB9 /* ubertooth-zero */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17C618382D5F00C3DBB9 /* README */,
+				67AA17C718382D5F00C3DBB9 /* ubertooth-zero-bom.csv */,
+				67AA17C818382D5F00C3DBB9 /* ubertooth-zero.brd */,
+				67AA17C918382D5F00C3DBB9 /* ubertooth-zero.sch */,
+			);
+			path = "ubertooth-zero";
+			sourceTree = "<group>";
+		};
+		67AA17CA18382D5F00C3DBB9 /* host */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17CB18382D5F00C3DBB9 /* CMakeLists.txt */,
+				67AA17CC18382D5F00C3DBB9 /* README.btle */,
+				67AA17CD18382D5F00C3DBB9 /* README.md */,
+				67AA17CE18382D5F00C3DBB9 /* cmake */,
+				67AA17D818382D5F00C3DBB9 /* kismet */,
+				67AA17F218382D5F00C3DBB9 /* libubertooth */,
+				67AA17FC18382D5F00C3DBB9 /* python */,
+				67AA182218382D5F00C3DBB9 /* ubertooth-tools */,
+			);
+			name = host;
+			path = ../host;
+			sourceTree = "<group>";
+		};
+		67AA17CE18382D5F00C3DBB9 /* cmake */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17CF18382D5F00C3DBB9 /* cmake_uninstall.cmake.in */,
+				67AA17D018382D5F00C3DBB9 /* modules */,
+			);
+			path = cmake;
+			sourceTree = "<group>";
+		};
+		67AA17D018382D5F00C3DBB9 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17D118382D5F00C3DBB9 /* FindBLUETOOTH.cmake */,
+				67AA17D218382D5F00C3DBB9 /* FindBTBB.cmake */,
+				67AA17D318382D5F00C3DBB9 /* FindPCAP.cmake */,
+				67AA17D418382D5F00C3DBB9 /* FindPackageHandleStandardArgs.cmake */,
+				67AA17D518382D5F00C3DBB9 /* FindPythonInterp.cmake */,
+				67AA17D618382D5F00C3DBB9 /* FindUBERTOOTH.cmake */,
+				67AA17D718382D5F00C3DBB9 /* FindUSB1.cmake */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		67AA17D818382D5F00C3DBB9 /* kismet */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17D918382D5F00C3DBB9 /* README */,
+				67AA17DA18382D5F00C3DBB9 /* plugin-ubertooth */,
+				67AA17E618382D5F00C3DBB9 /* plugin-ubertooth-phyneutral */,
+			);
+			path = kismet;
+			sourceTree = "<group>";
+		};
+		67AA17DA18382D5F00C3DBB9 /* plugin-ubertooth */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17DB18382D5F00C3DBB9 /* Makefile */,
+				67AA17DC18382D5F00C3DBB9 /* README */,
+				67AA17DD18382D5F00C3DBB9 /* kismet_ubertooth.cc */,
+				67AA17DE18382D5F00C3DBB9 /* packet_btbb.cc */,
+				67AA17DF18382D5F00C3DBB9 /* packet_btbb.h */,
+				67AA17E018382D5F00C3DBB9 /* packet_btbb_types.cc */,
+				67AA17E118382D5F00C3DBB9 /* packetsource_ubertooth.cc */,
+				67AA17E218382D5F00C3DBB9 /* packetsource_ubertooth.h */,
+				67AA17E318382D5F00C3DBB9 /* tracker_btbb.cc */,
+				67AA17E418382D5F00C3DBB9 /* tracker_btbb.h */,
+				67AA17E518382D5F00C3DBB9 /* ubertooth_ui.cc */,
+			);
+			path = "plugin-ubertooth";
+			sourceTree = "<group>";
+		};
+		67AA17E618382D5F00C3DBB9 /* plugin-ubertooth-phyneutral */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17E718382D5F00C3DBB9 /* Makefile */,
+				67AA17E818382D5F00C3DBB9 /* README */,
+				67AA17E918382D5F00C3DBB9 /* README.developers */,
+				67AA17EA18382D5F00C3DBB9 /* kismet_ubertooth.cc */,
+				67AA17EB18382D5F00C3DBB9 /* packet_btbb.cc */,
+				67AA17EC18382D5F00C3DBB9 /* packet_btbb.h */,
+				67AA17ED18382D5F00C3DBB9 /* packet_btbb_types.cc */,
+				67AA17EE18382D5F00C3DBB9 /* packetsource_ubertooth.cc */,
+				67AA17EF18382D5F00C3DBB9 /* packetsource_ubertooth.h */,
+				67AA17F018382D5F00C3DBB9 /* phy_btbb.cc */,
+				67AA17F118382D5F00C3DBB9 /* phy_btbb.h */,
+			);
+			path = "plugin-ubertooth-phyneutral";
+			sourceTree = "<group>";
+		};
+		67AA17F218382D5F00C3DBB9 /* libubertooth */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17F318382D5F00C3DBB9 /* 40-ubertooth.rules */,
+				67AA17F418382D5F00C3DBB9 /* CMakeLists.txt */,
+				67AA17F518382D5F00C3DBB9 /* src */,
+			);
+			path = libubertooth;
+			sourceTree = "<group>";
+		};
+		67AA17F518382D5F00C3DBB9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17F618382D5F00C3DBB9 /* CMakeLists.txt */,
+				67AA17F718382D5F00C3DBB9 /* ubertooth.c */,
+				67AA17F818382D5F00C3DBB9 /* ubertooth.h */,
+				67AA17F918382D5F00C3DBB9 /* ubertooth_control.c */,
+				67AA17FA18382D5F00C3DBB9 /* ubertooth_control.h */,
+				67AA17FB18382D5F00C3DBB9 /* ubertooth_interface.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		67AA17FC18382D5F00C3DBB9 /* python */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17FD18382D5F00C3DBB9 /* CMakeLists.txt */,
+				67AA17FE18382D5F00C3DBB9 /* Ubertooth */,
+				67AA180518382D5F00C3DBB9 /* extcap */,
+				67AA180818382D5F00C3DBB9 /* specan_ui */,
+				67AA181618382D5F00C3DBB9 /* usb_dfu */,
+			);
+			path = python;
+			sourceTree = "<group>";
+		};
+		67AA17FE18382D5F00C3DBB9 /* Ubertooth */ = {
+			isa = PBXGroup;
+			children = (
+				67AA17FF18382D5F00C3DBB9 /* Ubertooth-adv.py */,
+				67AA180018382D5F00C3DBB9 /* Ubertooth-replay.py */,
+				67AA180118382D5F00C3DBB9 /* Ubertooth.py */,
+				67AA180218382D5F00C3DBB9 /* Ubertooth.pyc */,
+				67AA180318382D5F00C3DBB9 /* kevo-token.pcap */,
+				67AA180418382D5F00C3DBB9 /* pairingtest.pcap */,
+			);
+			path = Ubertooth;
+			sourceTree = "<group>";
+		};
+		67AA180518382D5F00C3DBB9 /* extcap */ = {
+			isa = PBXGroup;
+			children = (
+				67AA180618382D5F00C3DBB9 /* README */,
+				67AA180718382D5F00C3DBB9 /* btle-extcap.py */,
+			);
+			path = extcap;
+			sourceTree = "<group>";
+		};
+		67AA180818382D5F00C3DBB9 /* specan_ui */ = {
+			isa = PBXGroup;
+			children = (
+				67AA180918382D5F00C3DBB9 /* CMakeLists.txt */,
+				67AA180A18382D5F00C3DBB9 /* README */,
+				67AA180B18382D5F00C3DBB9 /* build */,
+				67AA181018382D5F00C3DBB9 /* setup.py */,
+				67AA181118382D5F00C3DBB9 /* setup.py.in */,
+				67AA181218382D5F00C3DBB9 /* specan */,
+				67AA181518382D5F00C3DBB9 /* ubertooth-specan-ui */,
+			);
+			path = specan_ui;
+			sourceTree = "<group>";
+		};
+		67AA180B18382D5F00C3DBB9 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				67AA180C18382D5F00C3DBB9 /* lib.linux-x86_64-2.7 */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		67AA180C18382D5F00C3DBB9 /* lib.linux-x86_64-2.7 */ = {
+			isa = PBXGroup;
+			children = (
+				67AA180D18382D5F00C3DBB9 /* specan */,
+			);
+			path = "lib.linux-x86_64-2.7";
+			sourceTree = "<group>";
+		};
+		67AA180D18382D5F00C3DBB9 /* specan */ = {
+			isa = PBXGroup;
+			children = (
+				67AA180E18382D5F00C3DBB9 /* Ubertooth.py */,
+				67AA180F18382D5F00C3DBB9 /* __init__.py */,
+			);
+			path = specan;
+			sourceTree = "<group>";
+		};
+		67AA181218382D5F00C3DBB9 /* specan */ = {
+			isa = PBXGroup;
+			children = (
+				67AA181318382D5F00C3DBB9 /* Ubertooth.py */,
+				67AA181418382D5F00C3DBB9 /* __init__.py */,
+			);
+			path = specan;
+			sourceTree = "<group>";
+		};
+		67AA181618382D5F00C3DBB9 /* usb_dfu */ = {
+			isa = PBXGroup;
+			children = (
+				67AA181718382D5F00C3DBB9 /* CMakeLists.txt */,
+				67AA181818382D5F00C3DBB9 /* Makefile */,
+				67AA181918382D5F00C3DBB9 /* README */,
+				67AA181A18382D5F00C3DBB9 /* dfu */,
+				67AA181F18382D5F00C3DBB9 /* setup.py */,
+				67AA182018382D5F00C3DBB9 /* setup.py.in */,
+				67AA182118382D5F00C3DBB9 /* ubertooth-dfu */,
+			);
+			path = usb_dfu;
+			sourceTree = "<group>";
+		};
+		67AA181A18382D5F00C3DBB9 /* dfu */ = {
+			isa = PBXGroup;
+			children = (
+				67AA181B18382D5F00C3DBB9 /* __init__.py */,
+				67AA181C18382D5F00C3DBB9 /* __init__.pyc */,
+				67AA181D18382D5F00C3DBB9 /* dfu.py */,
+				67AA181E18382D5F00C3DBB9 /* dfu.pyc */,
+			);
+			path = dfu;
+			sourceTree = "<group>";
+		};
+		67AA182218382D5F00C3DBB9 /* ubertooth-tools */ = {
+			isa = PBXGroup;
+			children = (
+				67AA182318382D5F00C3DBB9 /* CMakeLists.txt */,
+				67AA182418382D5F00C3DBB9 /* getopt */,
+				67AA182718382D5F00C3DBB9 /* src */,
+			);
+			path = "ubertooth-tools";
+			sourceTree = "<group>";
+		};
+		67AA182418382D5F00C3DBB9 /* getopt */ = {
+			isa = PBXGroup;
+			children = (
+				67AA182518382D5F00C3DBB9 /* getopt.c */,
+				67AA182618382D5F00C3DBB9 /* getopt.h */,
+			);
+			path = getopt;
+			sourceTree = "<group>";
+		};
+		67AA182718382D5F00C3DBB9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				67AA182818382D5F00C3DBB9 /* CMakeLists.txt */,
+				67AA182918382D5F00C3DBB9 /* arglist.c */,
+				67AA182A18382D5F00C3DBB9 /* arglist.h */,
+				67AA182B18382D5F00C3DBB9 /* cc2400.c */,
+				67AA182C18382D5F00C3DBB9 /* cc2400.h */,
+				67AA182D18382D5F00C3DBB9 /* ubertooth-btle.c */,
+				67AA182E18382D5F00C3DBB9 /* ubertooth-debug.c */,
+				67AA182F18382D5F00C3DBB9 /* ubertooth-dump.c */,
+				67AA183018382D5F00C3DBB9 /* ubertooth-follow.c */,
+				67AA183118382D5F00C3DBB9 /* ubertooth-rx.c */,
+				67AA183218382D5F00C3DBB9 /* ubertooth-scan.c */,
+				67AA183318382D5F00C3DBB9 /* ubertooth-specan.c */,
+				67AA183418382D5F00C3DBB9 /* ubertooth-util.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		67AA183618382D5F00C3DBB9 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				67AA183718382D5F00C3DBB9 /* RELEASENOTES */,
+				67AA183818382D5F00C3DBB9 /* ubertooth-release.sh */,
+				67AA183918382D5F00C3DBB9 /* ubertooth-release.txt */,
+			);
+			name = tools;
+			path = ../tools;
+			sourceTree = "<group>";
+		};
+		67AA183B18382D5F00C3DBB9 /* ubertooth */ = {
+			isa = PBXGroup;
+			children = (
+				67AA183C18382D5F00C3DBB9 /* ubertooth.xcodeproj */,
+			);
+			name = ubertooth;
+			sourceTree = SOURCE_ROOT;
+		};
+		67AA183D18382D5F00C3DBB9 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67AA183F18382D6A00C3DBB9 /* firmware */ = {
+			isa = PBXGroup;
+			children = (
+				67AA184018382D6A00C3DBB9 /* Makefile */,
+				67AA184118382D6A00C3DBB9 /* README */,
+				67AA184218382D6A00C3DBB9 /* assembly_test */,
+				67AA185118382D6A00C3DBB9 /* blinky */,
+				67AA186018382D6A00C3DBB9 /* bluetooth_rxtx */,
+				67AA188418382D6A00C3DBB9 /* bootloader */,
+				67AA189D18382D6A00C3DBB9 /* cc2400_test */,
+				67AA18AC18382D6A00C3DBB9 /* clock_test */,
+				67AA18BB18382D6A00C3DBB9 /* common */,
+				67AA18F318382D6A00C3DBB9 /* common.mk */,
+				67AA18F418382D6A00C3DBB9 /* ioatest */,
+				67AA191A18382D6A00C3DBB9 /* tc13badge */,
+				67AA192718382D6A00C3DBB9 /* usb_test */,
+			);
+			name = firmware;
+			path = ../firmware;
+			sourceTree = "<group>";
+		};
+		67AA184218382D6A00C3DBB9 /* assembly_test */ = {
+			isa = PBXGroup;
+			children = (
+				67AA184318382D6A00C3DBB9 /* Makefile */,
+				67AA184418382D6A00C3DBB9 /* README */,
+				67AA184518382D6A00C3DBB9 /* assembly_test.bin */,
+				67AA184618382D6A00C3DBB9 /* assembly_test.c */,
+				67AA184718382D6A00C3DBB9 /* assembly_test.d */,
+				67AA184818382D6A00C3DBB9 /* assembly_test.dfu */,
+				67AA184918382D6A00C3DBB9 /* assembly_test.elf */,
+				67AA184A18382D6A00C3DBB9 /* assembly_test.hex */,
+				67AA184B18382D6A00C3DBB9 /* assembly_test.lss */,
+				67AA184C18382D6A00C3DBB9 /* assembly_test.lst */,
+				67AA184D18382D6A00C3DBB9 /* assembly_test.map */,
+				67AA184E18382D6A00C3DBB9 /* assembly_test.o */,
+				67AA184F18382D6A00C3DBB9 /* assembly_test.srec */,
+				67AA185018382D6A00C3DBB9 /* assembly_test.sym */,
+			);
+			path = assembly_test;
+			sourceTree = "<group>";
+		};
+		67AA185118382D6A00C3DBB9 /* blinky */ = {
+			isa = PBXGroup;
+			children = (
+				67AA185218382D6A00C3DBB9 /* Makefile */,
+				67AA185318382D6A00C3DBB9 /* README */,
+				67AA185418382D6A00C3DBB9 /* blinky.bin */,
+				67AA185518382D6A00C3DBB9 /* blinky.c */,
+				67AA185618382D6A00C3DBB9 /* blinky.d */,
+				67AA185718382D6A00C3DBB9 /* blinky.dfu */,
+				67AA185818382D6A00C3DBB9 /* blinky.elf */,
+				67AA185918382D6A00C3DBB9 /* blinky.hex */,
+				67AA185A18382D6A00C3DBB9 /* blinky.lss */,
+				67AA185B18382D6A00C3DBB9 /* blinky.lst */,
+				67AA185C18382D6A00C3DBB9 /* blinky.map */,
+				67AA185D18382D6A00C3DBB9 /* blinky.o */,
+				67AA185E18382D6A00C3DBB9 /* blinky.srec */,
+				67AA185F18382D6A00C3DBB9 /* blinky.sym */,
+			);
+			path = blinky;
+			sourceTree = "<group>";
+		};
+		67AA186018382D6A00C3DBB9 /* bluetooth_rxtx */ = {
+			isa = PBXGroup;
+			children = (
+				67AA186118382D6A00C3DBB9 /* Makefile */,
+				67AA186218382D6A00C3DBB9 /* README */,
+				67AA186318382D6A00C3DBB9 /* bluetooth.c */,
+				67AA186418382D6A00C3DBB9 /* bluetooth.d */,
+				67AA186518382D6A00C3DBB9 /* bluetooth.h */,
+				67AA186618382D6A00C3DBB9 /* bluetooth.lst */,
+				67AA186718382D6A00C3DBB9 /* bluetooth.o */,
+				67AA186818382D6A00C3DBB9 /* bluetooth_le.c */,
+				67AA186918382D6A00C3DBB9 /* bluetooth_le.d */,
+				67AA186A18382D6A00C3DBB9 /* bluetooth_le.h */,
+				67AA186B18382D6A00C3DBB9 /* bluetooth_le.lst */,
+				67AA186C18382D6A00C3DBB9 /* bluetooth_le.o */,
+				67AA186D18382D6A00C3DBB9 /* bluetooth_rxtx.bin */,
+				67AA186E18382D6A00C3DBB9 /* bluetooth_rxtx.c */,
+				67AA186F18382D6A00C3DBB9 /* bluetooth_rxtx.d */,
+				67AA187018382D6A00C3DBB9 /* bluetooth_rxtx.dfu */,
+				67AA187118382D6A00C3DBB9 /* bluetooth_rxtx.elf */,
+				67AA187218382D6A00C3DBB9 /* bluetooth_rxtx.hex */,
+				67AA187318382D6A00C3DBB9 /* bluetooth_rxtx.lss */,
+				67AA187418382D6A00C3DBB9 /* bluetooth_rxtx.lst */,
+				67AA187518382D6A00C3DBB9 /* bluetooth_rxtx.map */,
+				67AA187618382D6A00C3DBB9 /* bluetooth_rxtx.o */,
+				67AA187718382D6A00C3DBB9 /* bluetooth_rxtx.srec */,
+				67AA187818382D6A00C3DBB9 /* bluetooth_rxtx.sym */,
+				67AA187918382D6A00C3DBB9 /* cc2400_rangetest.c */,
+				67AA187A18382D6A00C3DBB9 /* cc2400_rangetest.d */,
+				67AA187B18382D6A00C3DBB9 /* cc2400_rangetest.h */,
+				67AA187C18382D6A00C3DBB9 /* cc2400_rangetest.lst */,
+				67AA187D18382D6A00C3DBB9 /* cc2400_rangetest.o */,
+				67AA187E18382D6A00C3DBB9 /* hop_increment */,
+				67AA187F18382D6A00C3DBB9 /* ubertooth_usb.c */,
+				67AA188018382D6A00C3DBB9 /* ubertooth_usb.d */,
+				67AA188118382D6A00C3DBB9 /* ubertooth_usb.h */,
+				67AA188218382D6A00C3DBB9 /* ubertooth_usb.lst */,
+				67AA188318382D6A00C3DBB9 /* ubertooth_usb.o */,
+			);
+			path = bluetooth_rxtx;
+			sourceTree = "<group>";
+		};
+		67AA188418382D6A00C3DBB9 /* bootloader */ = {
+			isa = PBXGroup;
+			children = (
+				67AA188518382D6A00C3DBB9 /* Makefile */,
+				67AA188618382D6A00C3DBB9 /* README */,
+				67AA188718382D6A00C3DBB9 /* bootloader.bin */,
+				67AA188818382D6A00C3DBB9 /* bootloader.cpp */,
+				67AA188918382D6A00C3DBB9 /* bootloader.d */,
+				67AA188A18382D6A00C3DBB9 /* bootloader.elf */,
+				67AA188B18382D6A00C3DBB9 /* bootloader.hex */,
+				67AA188C18382D6A00C3DBB9 /* bootloader.lss */,
+				67AA188D18382D6A00C3DBB9 /* bootloader.lst */,
+				67AA188E18382D6A00C3DBB9 /* bootloader.map */,
+				67AA188F18382D6A00C3DBB9 /* bootloader.o */,
+				67AA189018382D6A00C3DBB9 /* bootloader.srec */,
+				67AA189118382D6A00C3DBB9 /* bootloader.sym */,
+				67AA189218382D6A00C3DBB9 /* dfu.cpp */,
+				67AA189318382D6A00C3DBB9 /* dfu.d */,
+				67AA189418382D6A00C3DBB9 /* dfu.h */,
+				67AA189518382D6A00C3DBB9 /* dfu.lst */,
+				67AA189618382D6A00C3DBB9 /* dfu.o */,
+				67AA189718382D6A00C3DBB9 /* flash.h */,
+				67AA189818382D6A00C3DBB9 /* iap.cpp */,
+				67AA189918382D6A00C3DBB9 /* iap.d */,
+				67AA189A18382D6A00C3DBB9 /* iap.h */,
+				67AA189B18382D6A00C3DBB9 /* iap.lst */,
+				67AA189C18382D6A00C3DBB9 /* iap.o */,
+			);
+			path = bootloader;
+			sourceTree = "<group>";
+		};
+		67AA189D18382D6A00C3DBB9 /* cc2400_test */ = {
+			isa = PBXGroup;
+			children = (
+				67AA189E18382D6A00C3DBB9 /* Makefile */,
+				67AA189F18382D6A00C3DBB9 /* README */,
+				67AA18A018382D6A00C3DBB9 /* cc2400_test.bin */,
+				67AA18A118382D6A00C3DBB9 /* cc2400_test.c */,
+				67AA18A218382D6A00C3DBB9 /* cc2400_test.d */,
+				67AA18A318382D6A00C3DBB9 /* cc2400_test.dfu */,
+				67AA18A418382D6A00C3DBB9 /* cc2400_test.elf */,
+				67AA18A518382D6A00C3DBB9 /* cc2400_test.hex */,
+				67AA18A618382D6A00C3DBB9 /* cc2400_test.lss */,
+				67AA18A718382D6A00C3DBB9 /* cc2400_test.lst */,
+				67AA18A818382D6A00C3DBB9 /* cc2400_test.map */,
+				67AA18A918382D6A00C3DBB9 /* cc2400_test.o */,
+				67AA18AA18382D6A00C3DBB9 /* cc2400_test.srec */,
+				67AA18AB18382D6A00C3DBB9 /* cc2400_test.sym */,
+			);
+			path = cc2400_test;
+			sourceTree = "<group>";
+		};
+		67AA18AC18382D6A00C3DBB9 /* clock_test */ = {
+			isa = PBXGroup;
+			children = (
+				67AA18AD18382D6A00C3DBB9 /* Makefile */,
+				67AA18AE18382D6A00C3DBB9 /* README */,
+				67AA18AF18382D6A00C3DBB9 /* clock_test.bin */,
+				67AA18B018382D6A00C3DBB9 /* clock_test.c */,
+				67AA18B118382D6A00C3DBB9 /* clock_test.d */,
+				67AA18B218382D6A00C3DBB9 /* clock_test.dfu */,
+				67AA18B318382D6A00C3DBB9 /* clock_test.elf */,
+				67AA18B418382D6A00C3DBB9 /* clock_test.hex */,
+				67AA18B518382D6A00C3DBB9 /* clock_test.lss */,
+				67AA18B618382D6A00C3DBB9 /* clock_test.lst */,
+				67AA18B718382D6A00C3DBB9 /* clock_test.map */,
+				67AA18B818382D6A00C3DBB9 /* clock_test.o */,
+				67AA18B918382D6A00C3DBB9 /* clock_test.srec */,
+				67AA18BA18382D6A00C3DBB9 /* clock_test.sym */,
+			);
+			path = clock_test;
+			sourceTree = "<group>";
+		};
+		67AA18BB18382D6A00C3DBB9 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				67AA18BC18382D6A00C3DBB9 /* LPC17xx_Interrupts.c */,
+				67AA18C318382D6A00C3DBB9 /* LPC17xx_Startup.c */,
+				67AA18C718382D6A00C3DBB9 /* README */,
+				67AA18C818382D6A00C3DBB9 /* cc2400.h */,
+				67AA18C918382D6A00C3DBB9 /* lpc17.h */,
+				67AA18CA18382D6A00C3DBB9 /* lpcusb */,
+				67AA18E218382D6A00C3DBB9 /* sections.ld */,
+				67AA18E318382D6A00C3DBB9 /* serial_fifo.c */,
+				67AA18E818382D6A00C3DBB9 /* types.h */,
+				67AA18E918382D6A00C3DBB9 /* ubertooth.c */,
+				67AA18EE18382D6A00C3DBB9 /* usb_serial.c */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		67AA18CA18382D6A00C3DBB9 /* lpcusb */ = {
+			isa = PBXGroup;
+			children = (
+				67AA18CB18382D6A00C3DBB9 /* README */,
+				67AA18CC18382D6A00C3DBB9 /* target */,
+			);
+			path = lpcusb;
+			sourceTree = "<group>";
+		};
+		67AA18CC18382D6A00C3DBB9 /* target */ = {
+			isa = PBXGroup;
+			children = (
+				67AA18CD18382D6A00C3DBB9 /* debug.h */,
+				67AA18CE18382D6A00C3DBB9 /* type.h */,
+				67AA18CF18382D6A00C3DBB9 /* usbapi.h */,
+				67AA18D018382D6A00C3DBB9 /* usbcontrol.c */,
+				67AA18D118382D6A00C3DBB9 /* usbcontrol.d */,
+				67AA18D218382D6A00C3DBB9 /* usbcontrol.lst */,
+				67AA18D318382D6A00C3DBB9 /* usbcontrol.o */,
+				67AA18D418382D6A00C3DBB9 /* usbhw_lpc.c */,
+				67AA18D518382D6A00C3DBB9 /* usbhw_lpc.d */,
+				67AA18D618382D6A00C3DBB9 /* usbhw_lpc.h */,
+				67AA18D718382D6A00C3DBB9 /* usbhw_lpc.lst */,
+				67AA18D818382D6A00C3DBB9 /* usbhw_lpc.o */,
+				67AA18D918382D6A00C3DBB9 /* usbinit.c */,
+				67AA18DA18382D6A00C3DBB9 /* usbinit.d */,
+				67AA18DB18382D6A00C3DBB9 /* usbinit.lst */,
+				67AA18DC18382D6A00C3DBB9 /* usbinit.o */,
+				67AA18DD18382D6A00C3DBB9 /* usbstdreq.c */,
+				67AA18DE18382D6A00C3DBB9 /* usbstdreq.d */,
+				67AA18DF18382D6A00C3DBB9 /* usbstdreq.lst */,
+				67AA18E018382D6A00C3DBB9 /* usbstdreq.o */,
+				67AA18E118382D6A00C3DBB9 /* usbstruct.h */,
+			);
+			path = target;
+			sourceTree = "<group>";
+		};
+		67AA18F418382D6A00C3DBB9 /* ioatest */ = {
+			isa = PBXGroup;
+			children = (
+				67AA18F518382D6A00C3DBB9 /* Makefile */,
+				67AA18F618382D6A00C3DBB9 /* README */,
+				67AA18F718382D6A00C3DBB9 /* bluetooth-ioa.c */,
+				67AA19F61838300600C3DBB9 /* bluetooth-ioa.h */,
+				67AA18F818382D6A00C3DBB9 /* bluetooth.c */,
+				67AA19F318382FBC00C3DBB9 /* bluetooth.h */,
+				67AA18FD18382D6A00C3DBB9 /* bluetooth_le.c */,
+				67AA19F71838301500C3DBB9 /* bluetooth_le.h */,
+				67AA190F18382D6A00C3DBB9 /* cc2400.c */,
+				67AA19F81838302F00C3DBB9 /* cc2400.h */,
+				67AA191018382D6A00C3DBB9 /* cc2400_rangetest.c */,
+				67AA191518382D6A00C3DBB9 /* ubertooth_usb.c */,
+				67AA19F91838304B00C3DBB9 /* ubertooth_usb.h */,
+				67AA19F218382F8600C3DBB9 /* dma.c */,
+				67AA19F418382FC400C3DBB9 /* dma.h */,
+				67AA19FA1838317000C3DBB9 /* ubertooth_util.c */,
+				67AA19FB1838348600C3DBB9 /* ubertooth_util.h */,
+			);
+			path = ioatest;
+			sourceTree = "<group>";
+		};
+		67AA191A18382D6A00C3DBB9 /* tc13badge */ = {
+			isa = PBXGroup;
+			children = (
+				67AA191B18382D6A00C3DBB9 /* Makefile */,
+				67AA191C18382D6A00C3DBB9 /* R5F212L4.ld */,
+				67AA191D18382D6A00C3DBB9 /* README */,
+				67AA191E18382D6A00C3DBB9 /* bitmaps.h */,
+				67AA191F18382D6A00C3DBB9 /* cc2400.h */,
+				67AA192018382D6A00C3DBB9 /* init.S */,
+				67AA192118382D6A00C3DBB9 /* ivects.S */,
+				67AA192218382D6A00C3DBB9 /* mkports */,
+				67AA192318382D6A00C3DBB9 /* r8c2l.io */,
+				67AA192418382D6A00C3DBB9 /* tc13badge.c */,
+				67AA192518382D6A00C3DBB9 /* tc13badge.h */,
+				67AA192618382D6A00C3DBB9 /* toorcon.c */,
+			);
+			path = tc13badge;
+			sourceTree = "<group>";
+		};
+		67AA192718382D6A00C3DBB9 /* usb_test */ = {
+			isa = PBXGroup;
+			children = (
+				67AA192818382D6A00C3DBB9 /* Makefile */,
+				67AA192918382D6A00C3DBB9 /* README */,
+				67AA192A18382D6A00C3DBB9 /* usb_test.bin */,
+				67AA192B18382D6A00C3DBB9 /* usb_test.c */,
+				67AA192C18382D6A00C3DBB9 /* usb_test.d */,
+				67AA192D18382D6A00C3DBB9 /* usb_test.dfu */,
+				67AA192E18382D6A00C3DBB9 /* usb_test.elf */,
+				67AA192F18382D6A00C3DBB9 /* usb_test.hex */,
+				67AA193018382D6A00C3DBB9 /* usb_test.lss */,
+				67AA193118382D6A00C3DBB9 /* usb_test.lst */,
+				67AA193218382D6A00C3DBB9 /* usb_test.map */,
+				67AA193318382D6A00C3DBB9 /* usb_test.o */,
+				67AA193418382D6A00C3DBB9 /* usb_test.srec */,
+				67AA193518382D6A00C3DBB9 /* usb_test.sym */,
+			);
+			path = usb_test;
+			sourceTree = "<group>";
+		};
+		67AA193618382D6A00C3DBB9 /* hardware */ = {
+			isa = PBXGroup;
+			children = (
+				67AA193718382D6A00C3DBB9 /* artichoke */,
+				67AA194018382D6A00C3DBB9 /* broccoli */,
+				67AA194918382D6A00C3DBB9 /* celery */,
+				67AA195218382D6A00C3DBB9 /* endive */,
+				67AA195A18382D6A00C3DBB9 /* kicad */,
+				67AA195F18382D6A00C3DBB9 /* pogoprog */,
+				67AA196618382D6A00C3DBB9 /* tc13badge */,
+				67AA196F18382D6A00C3DBB9 /* ubertooth-one */,
+				67AA197818382D6A00C3DBB9 /* ubertooth-zero */,
+			);
+			name = hardware;
+			path = ../hardware;
+			sourceTree = "<group>";
+		};
+		67AA193718382D6A00C3DBB9 /* artichoke */ = {
+			isa = PBXGroup;
+			children = (
+				67AA193818382D6A00C3DBB9 /* README */,
+				67AA193918382D6A00C3DBB9 /* artichoke */,
+				67AA193A18382D6A00C3DBB9 /* artichoke-cache.lib */,
+				67AA193B18382D6A00C3DBB9 /* artichoke.brd */,
+				67AA193C18382D6A00C3DBB9 /* artichoke.cmp */,
+				67AA193D18382D6A00C3DBB9 /* artichoke.net */,
+				67AA193E18382D6A00C3DBB9 /* artichoke.pro */,
+				67AA193F18382D6A00C3DBB9 /* artichoke.sch */,
+			);
+			path = artichoke;
+			sourceTree = "<group>";
+		};
+		67AA194018382D6A00C3DBB9 /* broccoli */ = {
+			isa = PBXGroup;
+			children = (
+				67AA194118382D6A00C3DBB9 /* README */,
+				67AA194218382D6A00C3DBB9 /* broccoli */,
+				67AA194318382D6A00C3DBB9 /* broccoli-cache.lib */,
+				67AA194418382D6A00C3DBB9 /* broccoli.brd */,
+				67AA194518382D6A00C3DBB9 /* broccoli.cmp */,
+				67AA194618382D6A00C3DBB9 /* broccoli.net */,
+				67AA194718382D6A00C3DBB9 /* broccoli.pro */,
+				67AA194818382D6A00C3DBB9 /* broccoli.sch */,
+			);
+			path = broccoli;
+			sourceTree = "<group>";
+		};
+		67AA194918382D6A00C3DBB9 /* celery */ = {
+			isa = PBXGroup;
+			children = (
+				67AA194A18382D6A00C3DBB9 /* README */,
+				67AA194B18382D6A00C3DBB9 /* celery */,
+				67AA194C18382D6A00C3DBB9 /* celery-cache.lib */,
+				67AA194D18382D6A00C3DBB9 /* celery.brd */,
+				67AA194E18382D6A00C3DBB9 /* celery.cmp */,
+				67AA194F18382D6A00C3DBB9 /* celery.net */,
+				67AA195018382D6A00C3DBB9 /* celery.pro */,
+				67AA195118382D6A00C3DBB9 /* celery.sch */,
+			);
+			path = celery;
+			sourceTree = "<group>";
+		};
+		67AA195218382D6A00C3DBB9 /* endive */ = {
+			isa = PBXGroup;
+			children = (
+				67AA195318382D6A00C3DBB9 /* README */,
+				67AA195418382D6A00C3DBB9 /* endive-cache.lib */,
+				67AA195518382D6A00C3DBB9 /* endive.brd */,
+				67AA195618382D6A00C3DBB9 /* endive.cmp */,
+				67AA195718382D6A00C3DBB9 /* endive.net */,
+				67AA195818382D6A00C3DBB9 /* endive.pro */,
+				67AA195918382D6A00C3DBB9 /* endive.sch */,
+			);
+			path = endive;
+			sourceTree = "<group>";
+		};
+		67AA195A18382D6A00C3DBB9 /* kicad */ = {
+			isa = PBXGroup;
+			children = (
+				67AA195B18382D6A00C3DBB9 /* ubertooth-symbols.dcm */,
+				67AA195C18382D6A00C3DBB9 /* ubertooth-symbols.lib */,
+				67AA195D18382D6A00C3DBB9 /* ubertooth.mdc */,
+				67AA195E18382D6A00C3DBB9 /* ubertooth.mod */,
+			);
+			path = kicad;
+			sourceTree = "<group>";
+		};
+		67AA195F18382D6A00C3DBB9 /* pogoprog */ = {
+			isa = PBXGroup;
+			children = (
+				67AA196018382D6A00C3DBB9 /* pogoprog-cache.lib */,
+				67AA196118382D6A00C3DBB9 /* pogoprog.brd */,
+				67AA196218382D6A00C3DBB9 /* pogoprog.cmp */,
+				67AA196318382D6A00C3DBB9 /* pogoprog.net */,
+				67AA196418382D6A00C3DBB9 /* pogoprog.pro */,
+				67AA196518382D6A00C3DBB9 /* pogoprog.sch */,
+			);
+			path = pogoprog;
+			sourceTree = "<group>";
+		};
+		67AA196618382D6A00C3DBB9 /* tc13badge */ = {
+			isa = PBXGroup;
+			children = (
+				67AA196718382D6A00C3DBB9 /* README */,
+				67AA196818382D6A00C3DBB9 /* tc13badge */,
+				67AA196918382D6A00C3DBB9 /* tc13badge-cache.lib */,
+				67AA196A18382D6A00C3DBB9 /* tc13badge.brd */,
+				67AA196B18382D6A00C3DBB9 /* tc13badge.cmp */,
+				67AA196C18382D6A00C3DBB9 /* tc13badge.net */,
+				67AA196D18382D6A00C3DBB9 /* tc13badge.pro */,
+				67AA196E18382D6A00C3DBB9 /* tc13badge.sch */,
+			);
+			path = tc13badge;
+			sourceTree = "<group>";
+		};
+		67AA196F18382D6A00C3DBB9 /* ubertooth-one */ = {
+			isa = PBXGroup;
+			children = (
+				67AA197018382D6A00C3DBB9 /* README */,
+				67AA197118382D6A00C3DBB9 /* ubertooth-one */,
+				67AA197218382D6A00C3DBB9 /* ubertooth-one-cache.lib */,
+				67AA197318382D6A00C3DBB9 /* ubertooth-one.brd */,
+				67AA197418382D6A00C3DBB9 /* ubertooth-one.cmp */,
+				67AA197518382D6A00C3DBB9 /* ubertooth-one.net */,
+				67AA197618382D6A00C3DBB9 /* ubertooth-one.pro */,
+				67AA197718382D6A00C3DBB9 /* ubertooth-one.sch */,
+			);
+			path = "ubertooth-one";
+			sourceTree = "<group>";
+		};
+		67AA197818382D6A00C3DBB9 /* ubertooth-zero */ = {
+			isa = PBXGroup;
+			children = (
+				67AA197918382D6A00C3DBB9 /* README */,
+				67AA197A18382D6A00C3DBB9 /* ubertooth-zero-bom.csv */,
+				67AA197B18382D6A00C3DBB9 /* ubertooth-zero.brd */,
+				67AA197C18382D6A00C3DBB9 /* ubertooth-zero.sch */,
+			);
+			path = "ubertooth-zero";
+			sourceTree = "<group>";
+		};
+		67AA197D18382D6A00C3DBB9 /* host */ = {
+			isa = PBXGroup;
+			children = (
+				67AA197E18382D6A00C3DBB9 /* CMakeLists.txt */,
+				67AA197F18382D6A00C3DBB9 /* README.btle */,
+				67AA198018382D6A00C3DBB9 /* README.md */,
+				67AA198118382D6A00C3DBB9 /* cmake */,
+				67AA198B18382D6A00C3DBB9 /* kismet */,
+				67AA19A518382D6B00C3DBB9 /* libubertooth */,
+				67AA19AF18382D6B00C3DBB9 /* python */,
+				67AA19D518382D6B00C3DBB9 /* ubertooth-tools */,
+			);
+			name = host;
+			path = ../host;
+			sourceTree = "<group>";
+		};
+		67AA198118382D6A00C3DBB9 /* cmake */ = {
+			isa = PBXGroup;
+			children = (
+				67AA198218382D6A00C3DBB9 /* cmake_uninstall.cmake.in */,
+				67AA198318382D6A00C3DBB9 /* modules */,
+			);
+			path = cmake;
+			sourceTree = "<group>";
+		};
+		67AA198318382D6A00C3DBB9 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				67AA198418382D6A00C3DBB9 /* FindBLUETOOTH.cmake */,
+				67AA198518382D6A00C3DBB9 /* FindBTBB.cmake */,
+				67AA198618382D6A00C3DBB9 /* FindPCAP.cmake */,
+				67AA198718382D6A00C3DBB9 /* FindPackageHandleStandardArgs.cmake */,
+				67AA198818382D6A00C3DBB9 /* FindPythonInterp.cmake */,
+				67AA198918382D6A00C3DBB9 /* FindUBERTOOTH.cmake */,
+				67AA198A18382D6A00C3DBB9 /* FindUSB1.cmake */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		67AA198B18382D6A00C3DBB9 /* kismet */ = {
+			isa = PBXGroup;
+			children = (
+				67AA198C18382D6A00C3DBB9 /* README */,
+				67AA198D18382D6A00C3DBB9 /* plugin-ubertooth */,
+				67AA199918382D6B00C3DBB9 /* plugin-ubertooth-phyneutral */,
+			);
+			path = kismet;
+			sourceTree = "<group>";
+		};
+		67AA198D18382D6A00C3DBB9 /* plugin-ubertooth */ = {
+			isa = PBXGroup;
+			children = (
+				67AA198E18382D6A00C3DBB9 /* Makefile */,
+				67AA198F18382D6A00C3DBB9 /* README */,
+				67AA199018382D6A00C3DBB9 /* kismet_ubertooth.cc */,
+				67AA199118382D6A00C3DBB9 /* packet_btbb.cc */,
+				67AA199218382D6A00C3DBB9 /* packet_btbb.h */,
+				67AA199318382D6A00C3DBB9 /* packet_btbb_types.cc */,
+				67AA199418382D6A00C3DBB9 /* packetsource_ubertooth.cc */,
+				67AA199518382D6A00C3DBB9 /* packetsource_ubertooth.h */,
+				67AA199618382D6A00C3DBB9 /* tracker_btbb.cc */,
+				67AA199718382D6A00C3DBB9 /* tracker_btbb.h */,
+				67AA199818382D6A00C3DBB9 /* ubertooth_ui.cc */,
+			);
+			path = "plugin-ubertooth";
+			sourceTree = "<group>";
+		};
+		67AA199918382D6B00C3DBB9 /* plugin-ubertooth-phyneutral */ = {
+			isa = PBXGroup;
+			children = (
+				67AA199A18382D6B00C3DBB9 /* Makefile */,
+				67AA199B18382D6B00C3DBB9 /* README */,
+				67AA199C18382D6B00C3DBB9 /* README.developers */,
+				67AA199D18382D6B00C3DBB9 /* kismet_ubertooth.cc */,
+				67AA199E18382D6B00C3DBB9 /* packet_btbb.cc */,
+				67AA199F18382D6B00C3DBB9 /* packet_btbb.h */,
+				67AA19A018382D6B00C3DBB9 /* packet_btbb_types.cc */,
+				67AA19A118382D6B00C3DBB9 /* packetsource_ubertooth.cc */,
+				67AA19A218382D6B00C3DBB9 /* packetsource_ubertooth.h */,
+				67AA19A318382D6B00C3DBB9 /* phy_btbb.cc */,
+				67AA19A418382D6B00C3DBB9 /* phy_btbb.h */,
+			);
+			path = "plugin-ubertooth-phyneutral";
+			sourceTree = "<group>";
+		};
+		67AA19A518382D6B00C3DBB9 /* libubertooth */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19A618382D6B00C3DBB9 /* 40-ubertooth.rules */,
+				67AA19A718382D6B00C3DBB9 /* CMakeLists.txt */,
+				67AA19A818382D6B00C3DBB9 /* src */,
+			);
+			path = libubertooth;
+			sourceTree = "<group>";
+		};
+		67AA19A818382D6B00C3DBB9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19A918382D6B00C3DBB9 /* CMakeLists.txt */,
+				67AA19AA18382D6B00C3DBB9 /* ubertooth.c */,
+				67AA19AB18382D6B00C3DBB9 /* ubertooth.h */,
+				67AA19AC18382D6B00C3DBB9 /* ubertooth_control.c */,
+				67AA19AD18382D6B00C3DBB9 /* ubertooth_control.h */,
+				67AA19AE18382D6B00C3DBB9 /* ubertooth_interface.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		67AA19AF18382D6B00C3DBB9 /* python */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19B018382D6B00C3DBB9 /* CMakeLists.txt */,
+				67AA19B118382D6B00C3DBB9 /* Ubertooth */,
+				67AA19B818382D6B00C3DBB9 /* extcap */,
+				67AA19BB18382D6B00C3DBB9 /* specan_ui */,
+				67AA19C918382D6B00C3DBB9 /* usb_dfu */,
+			);
+			path = python;
+			sourceTree = "<group>";
+		};
+		67AA19B118382D6B00C3DBB9 /* Ubertooth */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19B218382D6B00C3DBB9 /* Ubertooth-adv.py */,
+				67AA19B318382D6B00C3DBB9 /* Ubertooth-replay.py */,
+				67AA19B418382D6B00C3DBB9 /* Ubertooth.py */,
+				67AA19B518382D6B00C3DBB9 /* Ubertooth.pyc */,
+				67AA19B618382D6B00C3DBB9 /* kevo-token.pcap */,
+				67AA19B718382D6B00C3DBB9 /* pairingtest.pcap */,
+			);
+			path = Ubertooth;
+			sourceTree = "<group>";
+		};
+		67AA19B818382D6B00C3DBB9 /* extcap */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19B918382D6B00C3DBB9 /* README */,
+				67AA19BA18382D6B00C3DBB9 /* btle-extcap.py */,
+			);
+			path = extcap;
+			sourceTree = "<group>";
+		};
+		67AA19BB18382D6B00C3DBB9 /* specan_ui */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19BC18382D6B00C3DBB9 /* CMakeLists.txt */,
+				67AA19BD18382D6B00C3DBB9 /* README */,
+				67AA19BE18382D6B00C3DBB9 /* build */,
+				67AA19C318382D6B00C3DBB9 /* setup.py */,
+				67AA19C418382D6B00C3DBB9 /* setup.py.in */,
+				67AA19C518382D6B00C3DBB9 /* specan */,
+				67AA19C818382D6B00C3DBB9 /* ubertooth-specan-ui */,
+			);
+			path = specan_ui;
+			sourceTree = "<group>";
+		};
+		67AA19BE18382D6B00C3DBB9 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19BF18382D6B00C3DBB9 /* lib.linux-x86_64-2.7 */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		67AA19BF18382D6B00C3DBB9 /* lib.linux-x86_64-2.7 */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19C018382D6B00C3DBB9 /* specan */,
+			);
+			path = "lib.linux-x86_64-2.7";
+			sourceTree = "<group>";
+		};
+		67AA19C018382D6B00C3DBB9 /* specan */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19C118382D6B00C3DBB9 /* Ubertooth.py */,
+				67AA19C218382D6B00C3DBB9 /* __init__.py */,
+			);
+			path = specan;
+			sourceTree = "<group>";
+		};
+		67AA19C518382D6B00C3DBB9 /* specan */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19C618382D6B00C3DBB9 /* Ubertooth.py */,
+				67AA19C718382D6B00C3DBB9 /* __init__.py */,
+			);
+			path = specan;
+			sourceTree = "<group>";
+		};
+		67AA19C918382D6B00C3DBB9 /* usb_dfu */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19CA18382D6B00C3DBB9 /* CMakeLists.txt */,
+				67AA19CB18382D6B00C3DBB9 /* Makefile */,
+				67AA19CC18382D6B00C3DBB9 /* README */,
+				67AA19CD18382D6B00C3DBB9 /* dfu */,
+				67AA19D218382D6B00C3DBB9 /* setup.py */,
+				67AA19D318382D6B00C3DBB9 /* setup.py.in */,
+				67AA19D418382D6B00C3DBB9 /* ubertooth-dfu */,
+			);
+			path = usb_dfu;
+			sourceTree = "<group>";
+		};
+		67AA19CD18382D6B00C3DBB9 /* dfu */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19CE18382D6B00C3DBB9 /* __init__.py */,
+				67AA19CF18382D6B00C3DBB9 /* __init__.pyc */,
+				67AA19D018382D6B00C3DBB9 /* dfu.py */,
+				67AA19D118382D6B00C3DBB9 /* dfu.pyc */,
+			);
+			path = dfu;
+			sourceTree = "<group>";
+		};
+		67AA19D518382D6B00C3DBB9 /* ubertooth-tools */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19D618382D6B00C3DBB9 /* CMakeLists.txt */,
+				67AA19D718382D6B00C3DBB9 /* getopt */,
+				67AA19DA18382D6B00C3DBB9 /* src */,
+			);
+			path = "ubertooth-tools";
+			sourceTree = "<group>";
+		};
+		67AA19D718382D6B00C3DBB9 /* getopt */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19D818382D6B00C3DBB9 /* getopt.c */,
+				67AA19D918382D6B00C3DBB9 /* getopt.h */,
+			);
+			path = getopt;
+			sourceTree = "<group>";
+		};
+		67AA19DA18382D6B00C3DBB9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19DB18382D6B00C3DBB9 /* CMakeLists.txt */,
+				67AA19DC18382D6B00C3DBB9 /* arglist.c */,
+				67AA19DD18382D6B00C3DBB9 /* arglist.h */,
+				67AA19DE18382D6B00C3DBB9 /* cc2400.c */,
+				67AA19DF18382D6B00C3DBB9 /* cc2400.h */,
+				67AA19E018382D6B00C3DBB9 /* ubertooth-btle.c */,
+				67AA19E118382D6B00C3DBB9 /* ubertooth-debug.c */,
+				67AA19E218382D6B00C3DBB9 /* ubertooth-dump.c */,
+				67AA19E318382D6B00C3DBB9 /* ubertooth-follow.c */,
+				67AA19E418382D6B00C3DBB9 /* ubertooth-rx.c */,
+				67AA19E518382D6B00C3DBB9 /* ubertooth-scan.c */,
+				67AA19E618382D6B00C3DBB9 /* ubertooth-specan.c */,
+				67AA19E718382D6B00C3DBB9 /* ubertooth-util.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		67AA19E918382D6B00C3DBB9 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19EA18382D6B00C3DBB9 /* RELEASENOTES */,
+				67AA19EB18382D6B00C3DBB9 /* ubertooth-release.sh */,
+				67AA19EC18382D6B00C3DBB9 /* ubertooth-release.txt */,
+			);
+			name = tools;
+			path = ../tools;
+			sourceTree = "<group>";
+		};
+		67AA19EE18382D6B00C3DBB9 /* ubertooth */ = {
+			isa = PBXGroup;
+			children = (
+				67AA19EF18382D6B00C3DBB9 /* ubertooth.xcodeproj */,
+			);
+			name = ubertooth;
+			sourceTree = "<group>";
+		};
+		67AA19F018382D6B00C3DBB9 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		67AA166318382D2800C3DBB9 /* ubertooth */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 67AA166618382D2800C3DBB9 /* Build configuration list for PBXLegacyTarget "ubertooth" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = ubertooth;
+			passBuildSettingsInEnvironment = 1;
+			productName = ubertooth;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		67AA165F18382D2800C3DBB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = phar;
+			};
+			buildConfigurationList = 67AA166218382D2800C3DBB9 /* Build configuration list for PBXProject "ubertooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67AA165E18382D2800C3DBB9;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 67AA19F018382D6B00C3DBB9 /* Products */;
+					ProjectRef = 67AA19EF18382D6B00C3DBB9 /* ubertooth.xcodeproj */;
+				},
+				{
+					ProductGroup = 67AA183D18382D5F00C3DBB9 /* Products */;
+					ProjectRef = 67AA183C18382D5F00C3DBB9 /* ubertooth.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				67AA166318382D2800C3DBB9 /* ubertooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		67AA166418382D2800C3DBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		67AA166518382D2800C3DBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		67AA166718382D2800C3DBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67AA166818382D2800C3DBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67AA166218382D2800C3DBB9 /* Build configuration list for PBXProject "ubertooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AA166418382D2800C3DBB9 /* Debug */,
+				67AA166518382D2800C3DBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67AA166618382D2800C3DBB9 /* Build configuration list for PBXLegacyTarget "ubertooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AA166718382D2800C3DBB9 /* Debug */,
+				67AA166818382D2800C3DBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67AA165F18382D2800C3DBB9 /* Project object */;
+}

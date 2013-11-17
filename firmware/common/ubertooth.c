@@ -200,6 +200,32 @@ void dio_ssp_init()
 	DIO_SSP_CR1 = (SSPCR1_MS | SSPCR1_SOD);
 }
 
+
+
+
+static void dio_ssp_start()
+{
+	/* make sure the (active low) slave select signal is not active */
+	DIO_SSEL_SET;
+    
+	/* enable rx DMA on DIO_SSP */
+	DIO_SSP_DMACR |= SSPDMACR_RXDMAE;
+	DIO_SSP_CR1 |= SSPCR1_SSE;
+	
+	/* enable DMA */
+	DMACC0Config |= DMACCxConfig_E;
+	ISER0 = ISER0_ISE_DMA;
+    
+	/* activate slave select pin */
+	DIO_SSEL_CLR;
+}
+
+static void dio_ssp_stop()
+{
+	; // TBD
+}
+
+
 void atest_init()
 {
 	/*
